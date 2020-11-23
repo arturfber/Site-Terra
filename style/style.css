@@ -5,54 +5,11 @@
 }
 
 
-
-/* ====================  H E A D E R  ==================== */
-
-header{
-    width: 100%;
-    background-color: #ff7212;
-}
-
 nav{
-    padding: 0;
+    font-size: 2.2vw;
+
 }
 
-header a{
+nav ul li i{
     color: #FFF;
-    font-weight: 900;
-
-    
-    display: flex;
-    align-items: center;
-}
-
-header i{
-    font-size: 30px;
-}
-
-header ul{
-    width: 100%;
-    padding: 0;
-    display: flex;
-
-    justify-content: space-between;
-
-}
-
-header #hamburger i{
-    margin-right: 10%;
-}
-
-header ul li{
-    list-style: none;
-    margin: 0 2%;
-
-}
-
-
-
-/* ====================  M A I N  ==================== */
-main img{
-    width: 96%;
-    margin: 2%;
 }
