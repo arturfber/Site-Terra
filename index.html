@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- ====================  C A B E Ç A L H O  ==================== -->
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0" id="header" style="z-index: 1;">
         <header>
             <!-- ========== NAV ========== -->
             <nav class="navbar navbar-expand-lg justify-content-between
@@ -28,47 +28,47 @@
                 <a href="#" class="text-white"> <i class="fas fa-bars"></i> <span class="font-weight-bold" style="font-size: 1.5vw;"> MENU </span></a>
 
                 <!--===== LOGO =====-->
-                <a class="navbar-brand posi" href="https://www.terra.com.br"> 
+                <a class="navbar-brand" href="https://www.terra.com.br"> 
                     <img class="img-fluid" src="img/logo_terra.png" style="width: 12vw;" height="36" alt="Terra.com.br">
                 </a>
 
-                <!-- ====================  N A V  1  ==================== -->
-                <div class="nav align-items-center">
+                <!-- ====================  NAV  SUPERIOR  ==================== -->
+                <div class="navbar align-items-center">
                     
                     <!-- ==========  NÚMERO  ========== -->
-                    <ul class="h6 text-white" style="list-style:none;">
+                    <ul class="h6 text-white d-none d-xl-block " style="list-style:none;">
                         <li class="font-weight-bold"> Conheça nossos serviços <strong> 0800 777 1234 </strong> </li>
                         <li class="font-weight-bold"> Atendimento ao cliente 0800 777 9797 </li>
                     </ul>
 
                     <!-- ========== ICONS ========== -->
-                    <ul class="navbar-nav mr-auto">
-                        <li class="text-white"> | </li>
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="text-white d-none d-xl-block"> | </li>
 
-                        <li class="nav-item"> <a class="nav-link" href=""> <i class="fas fa-comments"></i> </a> </li>
+                        <li class="nav-item d-none d-sm-block"> <a class="nav-link" href=""> <i class="fas fa-comments"></i> </a> </li>
 
-                        <li class="nav-item"> <a class="nav-link" href="https://chat.terra.com.br/"> <i class="fas fa-user"></i> </a> </li>
+                        <li class="nav-item d-none d-sm-block"> <a class="nav-link" href="https://chat.terra.com.br/"> <i class="fas fa-user"></i> </a> </li>
 
-                        <li class="nav-item"> <a class="nav-link" href=""> <i class="fas fa-envelope"></i> </a> </li>
+                        <li class="nav-item d-none d-md-block"> <a class="nav-link" href=""> <i class="fas fa-envelope"></i> </a> </li>
 
-                        <li class="nav-item"> <a class="nav-link" href="http://mail.terra.com.br/"> <i class="fas fa-cloud-sun"></i> </a> </li>
+                        <li class="nav-item d-none d-md-block"> <a class="nav-link" href="http://mail.terra.com.br/"> <i class="fas fa-cloud-sun"></i> </a> </li>
                         
-                        <li class="nav-item"> <a class="nav-link" href=""> <i class="fas fa-spider"></i> </a> </li>
+                        <li class="nav-item d-none d-lg-block"> <a class="nav-link" href=""> <i class="fas fa-spider"></i> </a> </li>
                         
-                        <li class="nav-item"> <a class="nav-link" href=""> <i class="fas fa-futbol"></i> </a> </li>
+                        <li class="nav-item d-none d-lg-block"> <a class="nav-link" href=""> <i class="fas fa-futbol"></i> </a> </li>
                     </ul>
                 </div>
             </nav>
 
-            <!-- ====================  N A V  2  ==================== -->
-            <nav class="navbar p-0">
+            <!-- ====================  NAV  INFERIOR  ==================== -->
+            <nav class="navbar p-0 bg-white">
                 
                 <div class="container-fluid p-0">
 
                     <ul class="nav border-bottom d-flex">
 
                         <!-- ========== ITEM ========== -->
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a class="nav-link px-2 py-0 pl-4" href="#">
                                 <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/essential/grid-light.svg" width="15" alt="Terra">
                                 <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/essential/terra-servicos.svg" width="100" alt="">
@@ -76,17 +76,17 @@
                         </li>
 
                         <!-- ========== ITEM ========== -->
-                        <li class="nav-item">
+                        <li class="nav-item d-none d-sm-block">
                             <a class="nav-link px-2 py-0" href="#">
                                 <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-builder.svg" width="18" alt="">
-                                <span class="font-weight-bold h6" style="color: #59a2d7;"> CONSTRUTOR DE SITES </span>
+                                <span class="font-weight-bold text-primary h6" style="color: #59a2d7;"> CONSTRUTOR DE SITES </span>
                             </a>
                         </li>
 
                         <li class="separator"></li>
         
                         <!-- ========== ITEM ========== -->                        
-                        <li class="nav-item d-xs-none">
+                        <li class="nav-item d-none d-sm-block">
                             <a class="nav-link px-2 py-0" href="#">
                                 <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-mail.svg" width="18" alt="">
                                 <span class="font-weight-bold h6" style="color: #ff7212;"> MAIL GIGANTE </span>
@@ -98,10 +98,10 @@
 
 
                         <!-- ========== ITEM ========== -->
-                        <li class="nav-item d-xs-none">
+                        <li class="nav-item d-none d-sm-block">
                             <a class="nav-link px-2 py-0" href="#">
                                 <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-store.svg" width="18" alt="">
-                                <span class="font-weight-bold h6" style="color: #59a2d7;"> LOJA VIRTUAL </span>
+                                <span class="font-weight-bold text-primary h6" style="color: #59a2d7;"> LOJA VIRTUAL </span>
                             </a>
                         </li>
 
@@ -110,7 +110,7 @@
 
 
                         <!-- ========== ITEM ========== -->
-                        <li class="nav-item d-md-none d-lg-block">
+                        <li class="nav-item d-none d-xs-block">
                             <a class="nav-link px-2 py-0" href="#">
                                 <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-cursos-online.svg" width="18" alt="Curso Online">
                                 <span class="font-weight-bold h6" style="color: #59a2d7;"> CURSOS ONLINE </span>
@@ -118,10 +118,10 @@
                         </li>
                         
                         <!-- ========== ITEM ========== -->
-                        <li class="nav-item d-md-block d-lg-none">
+                        <li class="nav-item d-none d-xs-block">
                             <a class="nav-link px-2 py-0" href="#">
                                 <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-antivirus.svg" width="18" alt="">
-                                <span class="font-weight-bold h6" style="color: #59a2d7;"> ANTIVÍRUS </span>
+                                <span class="font-weight-bold text-danger h6" style="color: #59a2d7;"> ANTIVÍRUS </span>
                             </a>
                         </li>
 
@@ -130,10 +130,10 @@
 
                         
                         <!-- ========== ITEM ========== -->
-                        <li class="nav-item d-md-block d-lg-none">
+                        <li class="nav-item d-none d-xs-block">
                             <a class="nav-link px-2 py-0" href="#">
                                 <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-english-course.svg" width="18" alt="">
-                                <span class="font-weight-bold h6" style="color: #59a2d7;"> CURSO DE INGLÊS </span>
+                                <span class="font-weight-bold text-success h6" style="color: #59a2d7;"> CURSO DE INGLÊS </span>
                             </a>
                         </li>
 
@@ -156,86 +156,226 @@
     </div>
 
     <!-- ====================  A D - 1  ==================== -->
-    <section class="container-fluid px-4 my-2"> <a class="p-0" href="#"><img class="img-responsive w-100" src="https://tpc.googlesyndication.com/simgad/7974516240869591782" alt=""></a> </section>
+    <section class="container-fluid p-0 px-sm-4"> <a class="p-0" href="#"><img class="img-responsive w-100" src="https://tpc.googlesyndication.com/simgad/7974516240869591782" alt=""></a> </section>
 
      <!-- ====================  MENU  ==================== -->
     <div class="px-5 py-3 ">
-        <h1 class="position-absolute font-weight-bold float-left pl-2 d-flex mt-2" style="border-left: 7px solid rgba(128, 128, 128, 0.4);"><a href="#" class="text-dark" style="font-size: 2.5vw;"> NOTÍCIAS </a></h1>
+        <h1 class="position-absolute d-flex font-weight-bold float-left pl-2 d mt-2" style="border-left: 7px solid rgba(128, 128, 128, 0.4);"><a href="https://www.terra.com.br/noticias/" class="text-dark" style="font-size: 2.5vw;"> NOTÍCIAS </a></h1>
         
         <div class="d-flex justify-content-center">
             <ul class="text-danger nav font-weight-bold" style="font-size: 1.7vw;">
-                <li class="nav-item"> <a href="#" class="text-danger nav-link"> POLÍTICA</a> </li>
-                <li class="nav-item"> <a href="#" class="text-danger nav-link"> BRASIL </a> </li>
-                <li class="nav-item"> <a href="#" class="text-danger nav-link"> TECNOLOGIA </a> </li>
-                <li class="nav-item"> <a href="#" class="text-danger nav-link"> MUNDO </a> </li>
+                <li class="nav-item"> <a href="https://www.terra.com.br/noticias/brasil/politica/" class="text-danger nav-link"> POLÍTICA</a> </li>
+                <li class="nav-item"> <a href="https://www.terra.com.br/noticias/brasil/" class="text-danger nav-link"> BRASIL </a> </li>
+                <li class="nav-item"> <a href="https://www.terra.com.br/noticias/tecnologia/" class="text-danger nav-link"> TECNOLOGIA </a> </li>
+                <li class="nav-item"> <a href="https://www.terra.com.br/noticias/mundo/" class="text-danger nav-link"> MUNDO </a> </li>
             </ul>
         </div>
     </div>
 
-     <!-- ====================  CARDS NEWS  ==================== -->
-    <main class="container bg-success">
+    <!-- ====================  CARDS NEWS  ==================== -->
+    <main class="container">
 
+        <!-- ====================   R  O  W  1   ==================== -->
         <div class="row">
             
-            <!-- =============== CARD =============== -->
-            <div class="col-4 card m-0 p-1">
-                <a href="#">
-                    <img class="card-img" src="https://p2.trrsf.com/image/fget/cf/300/300/images.terra.com/2020/11/23/2cb82bb7-8eb6-48e4-a308-03c6981107f0.jpg" height="300" alt="Imagem startup">
-                    <div class="card-img-overlay d-flex d-flex flex-column justify-content-end">                        
-                        <p class="title text-white font-weight-bold" style="font-size: 2vw;"> Melhores startups de Inteligência Artificial do País são reveladas... </p>
-                        
-                        <div class="text-white font-weight-bold ">       
-                            <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/27/dino.png" width="20" alt="">
-                            <span> DINO </span>
+            <!-- ===============  C A R D  =============== -->
+            <div class="col-4 col-xs-12 m-0 p-2 card320" >
+                <article class="card" style="height: 100%;">
+                    <a href="#">
+                        <img class="card-img" src="https://p2.trrsf.com/image/fget/cf/300/300/images.terra.com/2020/11/23/2cb82bb7-8eb6-48e4-a308-03c6981107f0.jpg" height="300" alt="Imagem startup">
+                        <div class="card-img-overlay d-flex d-flex flex-column justify-content-end">
+                            <a class="badge badge-danger fit-badge" href="https://www.terra.com.br/noticias/tecnologia/"> TECNOLOGIA </a>  
+                            <p class="title text-white font-weight-bold" style="font-size: 2vw;"> Melhores startups de Inteligência Artificial do País são reveladas... </p>
+                            
+                            <div class="card-footer text-white font-weight-bold ">       
+                                <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/27/dino.png" width="20" alt="">
+                                <span> DINO </span>
+                            </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </article>
             </div>
 
-            <!-- =============== CARD =============== -->
-            <div class="col-4 bg-info m-0 p-1">
+
+            <!-- ===============  C A R D  =============== -->
+            <div class="col-4 p-2 m-0 card320" >
 
                 <!-- ===== Sub-Card ===== -->
-                <div class="col h-50 card ">
-                    <p class="tittle font-weight-bold" style="font-size: 1.5vw;"> Mulher é detida por agressão, injúria racial e homofobia em padaria... </p>
+                <article class="col-12 card  mb-3 p-2 overflow-hidden" style="height: 47%;">
+                    <a href="#" >
+                        <p class="tittle font-weight-bold"> Mulher é detida por agressão, injúria racial e homofobia em padaria... </p>
+                    </a>
                     <div class="card-footer">
                         <a href="#">
-                            <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/20/istoe-32x32.png" width="15" alt="">
+                            <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/20/istoe-32x32.png" width="15" alt="IstoÉ">
                             <span>IstoÉ</span>
                         </a>
                     </div>
-                </div>
+                </article>
+
 
                 <!-- ===== Sub-Card ===== -->
-                
-                <div class="h-50 card p-1"> 
-                    <div class="title font-weight-bold">
-                    <p class="card-text"> Concentração recorde de CO2 na atmosfera apesar de confinamentos por ... </p>
+                <article class="col-12 card p-2 overflow-hidden" style="height: 47%;"> 
+                    <a href="#">
+                        <p class="tittle font-weight-bold"> Concentração recorde de CO2 na atmosfera apesar de confinamentos por ... </p>
+                    </a>
                     <div class="card-footer">
                         <a href="#">
-                            <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/20/istoe-32x32.png" width="15" alt="">
+                            <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/20/istoe-32x32.png" width="15" alt="IstoÉ">
                             <span>IstoÉ</span>
                         </a>
                     </div>
-                    </div>
+            </div>
+
+               <!-- ===============  C A R D - A D  =============== -->
+               <div class="col-4 p-2 card320" >
+                    <article>
+                        <a href="#" class="d-flex flex-column align-items-center">
+                            <p> Publicidade </p>
+                            <div>
+                                <img class="img-fluid" src="https://tpc.googlesyndication.com/simgad/8119745751437460573" alt="">
+                            </div>
+                        </a>
+                    </article>
                 </div>
+        </div><!-- ========== FIM DA ROW 1 ========== -->
+
+        <!-- ====================   R  O  W  2   ==================== -->
+        <div class="row">
+
+             <!-- ===============  C A R D  =============== -->
+             <div class="col-4 p-2 m-0 card320" >
+
+                <!-- ===== Sub-Card ===== -->
+                <article class="col-12 card  mb-3 p-2 overflow-hidden" style="height: 47%;">
+                    <a href="https://istoe.com.br/italia-ultrapassa-as-52-mil-mortes-por-coronavirus/" >
+                        <p class="tittle font-weight-bold"> ++ Itália ultrapassa as 52 mil mortes por coronavírus ++ </p>
+                    </a>
+                    <div class="card-footer">
+                        <a href="http://istoe.com.br/">
+                            <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/20/istoe-32x32.png" width="15" alt="IstoÉ">
+                            <span>IstoÉ</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- ===== Sub-Card ===== -->
+                <div class="col-6 float-left pr-2 p-0 overflow-hidden " style="height: 47%;">
+                    <article class="card p-2 h-100" > 
+                        <a href="https://www.terra.com.br/noticias/mundo/italia-ultrapassa-a-marca-de-52-mil-mortes-por-coronavirus,1e3b72d51717895353039f9033a30555or5kw5ur.html">
+                            <p class="tittle font-weight-bold h6"> Itália ultrapassa a marca de 52 mil mortes por coronavírus </p>
+                        </a>
+                    </article>
+                </div>
+
+                 <!-- ===== Sub-Card ===== -->
+                 <div class="col-6 float-left pl-2 p-0 overflow-hidden " style="height: 47%;">
+                    <article class="card p-2 h-100" > 
+                        <a href="https://istoe.com.br/ultima-passagem-de-maradona-pelo-futebol-argentino-teve-homenagens-de-rivais/">
+                            <p class="tittle font-weight-bold h6"> Última passagem de Maradona pelo futebol argentino teve homenagens de ... </p>
+                        </a>
+                        <div class="card-footer">
+                            <a href="http://istoe.com.br/">
+                                <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/20/istoe-32x32.png" width="15" alt="IstoÉ">
+                                <span>IstoÉ</span>
+                            </a>
+                    </article>
+                 </div>
             </div>
 
-            <!-- =============== CARD =============== -->
-            <div class="col bg-primary m-1 p-0">
-                <p> Publicidade </p>
+
+            <!-- ===============  C A R D  =============== -->
+            <div class="col-4 m-0 p-2 card320" >
+                <article class="card p-2" style="height: 100%;">
+                    <a href="https://www.terra.com.br/noticias/em-1986-alemanha-sucumbiu-a-genialidade-de-maradona,15b6ee0ca3c41810ecc66c1fae725b376pajpmkj.html" style="font-size: 3vw;">
+                        <p class="font-weight-bold"> Em 1986, Alemanha sucumbiu à genialidade de Maradona </p>
+                    </a>
+                </article>
             </div>
 
+            <!-- ===============  C A R D  =============== -->
+            <div class="col-4 m-0 p-2 card320" >
+                <article class="card">
+                    <a href="https://www.terra.com.br/noticias/tecnologia/como-habilitar-adf-no-ps4-autenticacao-em-dois-fatores,4bc9ea971a93e19b8dcce165c6527b976kvkykxh.html">
+                        <img class="card-img" src="https://p2.trrsf.com/image/fget/cf/300/300/images.terra.com/2020/11/25/fabiana-e1606272183182.jpg" height="300" alt="Imagem startup">
+                        <div class="card-img-overlay d-flex d-flex flex-column justify-content-end">
+                            <a class="badge badge-danger fit-badge" href="https://www.terra.com.br/noticias/tecnologia/"> TECNOLOGIA </a>                 
+                            <p class="title text-white font-weight-bold" style="font-size: 2vw;"> Como habilitar AFD no PS4 [Autenticação em Dois Fatores] </p>
+                            
+                            <div class="card-footer text-white font-weight-bold ">       
+                                <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2020/08/27/tb32circlefavicon.png" width="20" alt="">
+                                <span> Tecnoblog </span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+
+
+
+        </div><!-- ========== FIM DA ROW 2 ========== -->
            
 
-        </div>
+        <!-- ====================  D I V I D E R ==================== -->
+        <section class="w-100" style="margin: 2% 0; border: 1px solid gray; border-top: medium solid black; border-right: 0; height: 54px;"></section>
+
+
+        <!-- ===============  C A R D  =============== -->
+        <section class="d-flex">
+
+            <div class="col-4">
+                <article>
+                    <a href="#" class="card">
+                        <img class="card-img-top" src="https://tpc.googlesyndication.com/simgad/16802311091933110755?" alt="C6 BANK - Carbon Friday">
+                        <div class="card-body">
+                            <p class="card-text h6 font-weight-bold">asjdnajsdnja</p>
+                            <p class="card-text h5 font-weight-bold"> C6 Bank Friday </p>
+                            <h4 class="card-tittle font-weight-bold"> ABRIR CONTA </h5>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- ===============  C A R D  =============== -->
+            <div class="col-4">
+                <article>
+                    <a href="">
+                        <img class="card-img-top" src="https://tpc.googlesyndication.com/simgad/16802311091933110755?" alt="C6 BANK - Carbon Friday">
+                        <div class="card-body">
+                            <p class="card-text h6 font-weight-bold">asjdnajsdnja</p>
+                            <p class="card-text h5 font-weight-bold"> C6 Bank Friday </p>
+                            <h4 class="card-tittle font-weight-bold"> ABRIR CONTA </h5>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- ===============  C A R D  =============== -->
+            <div class="col-4">
+                <article>
+                    <a href="">
+                        <img class="card-img-top" src="https://tpc.googlesyndication.com/simgad/16802311091933110755?" alt="C6 BANK - Carbon Friday">
+                        <div class="card-body">
+                            <p class="card-text h6 font-weight-bold">asjdnajsdnja</p>
+                            <p class="card-text h5 font-weight-bold"> C6 Bank Friday </p>
+                            <h4 class="card-tittle font-weight-bold"> ABRIR CONTA </h5>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+        
     </main>
 
 
     <!-- ====================  R O D A P É  ==================== -->
-    <footer class="border-top border-bottom text-center p-5 ">
+    <footer class="border-top border-bottom text-center p-5">
         <h1 style="font-size: 1.3vw;"> &copy; COPYRIGHT 2020, TERRA NETWORKS BRASIL S.A. </h1>
     </footer>
     
 </body>
+<!-- ========== JAVASCRIPT ========== -->
+<script src="scripts/script.js"></script>
+
 </html>
