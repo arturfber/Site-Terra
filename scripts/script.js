@@ -1,22 +1,22 @@
 // let header = document.querySelector('#header').addEventListener()
-function  nav(){
+// function  nav(){
 
-}
+// }
 
-var scrollBefore = 0;
+// var scrollBefore = 0;
 
-window.addEventListener('scroll',function(e){
-    const scrolled = window.scrollY;
+// window.addEventListener('scroll',function(e){
+//     const scrolled = window.scrollY;
 
-    if(scrollBefore > scrolled){
-        scrollBefore = scrolled;
-        let nav = document.querySelector('#header').style.position = "fixed"
+//     if(scrollBefore > scrolled){
+//         scrollBefore = scrolled;
+//         let nav = document.querySelector('#header').style.position = "fixed"
 
         
-    }else{
-        scrollBefore = scrolled;
-        let nav = document.querySelector('#header').style.position = "absolute"
+//     }else{
+//         scrollBefore = scrolled;
+//         let nav = document.querySelector('#header').style.position = "absolute"
 
-    }
+//     }
 
-})
+// })
