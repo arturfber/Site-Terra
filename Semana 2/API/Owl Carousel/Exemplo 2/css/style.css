@@ -1,0 +1,21 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.owl-carousel img{
+    height: 200px;
+}
+
+#botao_anterior, #botao_proximo{
+    position: absolute;
+    top: 175px;
+}
+
+#botao_anterior{
+    left: 35px;
+}
+
+#botao_proximo{
+    right: 35px;
+}

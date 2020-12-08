@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Banner </title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="../JQuery/jquery.min.js"></script>
+
+
+    <script>
+        $(document).ready(function(){
+            //Todo conteúdo JQuery
+            
+            var vtBanner = ["../img/imagem_1.jpg", "../img/imagem_2.jpg", "../img/imagem_3.jpg", "../img/imagem_4.jpg",]
+
+            var max = vtBanner.length -1;
+
+            var i = 0
+
+            $("#btAnte").text("<")
+            $("#btProx").text(">")
+
+           $("btAnte").click(function(){
+               troca(-1)
+           })
+
+           $("btProx").click(function(){
+               troca(-1)
+           })
+
+            function troca(opr){
+                $("#banner").css("background-image", "url("+ vtBanner[i] + ")").fadeOut(500)
+                i+=opr
+                if(i > max){
+                    i = 0;
+                }
+                else if(i < 0){
+                    i = max;
+                }
+
+                $("#banner").css("background-image", "url("+ vtBanner[i] + ")").fadeIn(500)
+
+            }
+
+        });
+    </script>
+
+</head>
+<body>
+    
+    <section id="banner">
+        <div id="btAnte"></div>
+        <div id="btProx"></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JQuery </title>
+    <script src="../JQuery/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#btSoma").click(function(){
+                var v1 = parseInt($("#f_v1").val());
+                var v2 = parseInt($("#f_v2").val());
+
+                var soma = v1 + v2;
+                
+                $("#res").text(soma)
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <section id="f_calc">
+        <label for=""> Valor 1 </label>
+        <input type="text" id="f_v1" value="0"><br><br>
+
+        <label for=""> Valor 2 </label>
+        <input type="text" id="f_v2" value="0"><br><br>
+        
+        <button id="btSoma"> SOMAR </button>
+        <div id="res"></div>
+    </section>
+
+    
+</body>
+</html>
