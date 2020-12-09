@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Descrição -->
+    <meta name="description" content="Veja no Terra as últimas notícias e as melhores coberturas ao vivo do Brasil e do Mundo, Esportes, Diversão, Vida e Estilo e assista os melhores vídeos no TerraTV.">
+    <!-- Palavras-chave -->
+    <meta name="keywords" content="Notícias, Coronavírus, Esportes, Entretenimento, Horóscopo, Economia, Vida e estilo, TV, Jornal, Política">
+    <!-- Motores de busca -->
+    <meta name="robots" content="index, follow">
+    <!-- Direitos autorias a: -->
+    <meta name="copyright" content="© COPYRIGHT 2020, TERRA NETWORKS BRASIL S.A.">
+    <!-- Ferramenta utilizada para criação do site -->
+    <meta name="generator" content="Visual Studio Code">
+    <!-- Identificação de censura apropriada da página -->
+    <meta name="rating" content="general">
+    <!-- Estilo padrão para o documento -->
+    <meta http-equiv="default-style" content="text/css">
+    <!-- Política -->
+    <meta name="referrer" content="origin">
+    <!-- Tema padrão da página -->
+    <meta name="theme-color" content="#FF7212">
+     <!-- Descrição da língua destinada para a audiência (depreciada) -->
+    <meta http-equiv="content-language" content="pt-br">
+    <!-- Autor do site -->
+    <meta name="author" content="The Closure Library Authors">
+    <!-- Criador do site -->
+    <meta name=”creator” content="Artur Ferreira Bernardes">
+    <!-- Renderizar a página dependendo do viewport do usuário -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Notícias do Brasil, mundo, clima, tecnologia, ciências, educação e mais - Terra </title>
+
+    <!-- Ícone --> 
+    <link rel="icon" href="img/icon.ico">
+    <!-- Bootstrap --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="scripts/owlCarousel/dist/assets/owl.carousel.min.css">
+    <!-- Owl Carousel Theme -->
+    <link rel="stylesheet" href="scripts/owlCarousel/dist/assets/owl.theme.default.min.css">
+    <!-- Link CSS --> 
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Ícones Font Awesome -->            
+    <script src="https://kit.fontawesome.com/b58eb834a8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- ====================  C A B E Ç A L H O  ==================== -->
+    <div class="container-fluid p-0" id="header" style="z-index: 1;">
+        <header>
+            <!-- ========== NAV ========== -->
+            <nav class="navbar navbar-expand-lg justify-content-between
+            " style="background-color: #ff7212;">
+               
+                <!--===== HAMBURGUER =====-->
+                <a href="#" class="text-white"> <i class="fas fa-bars"></i> <span class="font-weight-bold" style="font-size: 1em;"> MENU </span></a>
+
+                <!--===== LOGO =====-->
+                <a class="navbar-brand" href="https://www.terra.com.br"> 
+                    <img class="img-fluid" src="img/logo_terra.png" style="width: 15vw;" height="36" alt="Logo Terra">
+                </a>
+
+                <!-- ====================  NAV  SUPERIOR  ==================== -->
+                <div class="navbar align-items-center">
+                    
+                    <!-- ==========  NÚMERO  ========== -->
+                    <ul class="h6 text-white d-none d-xl-block " style="list-style:none;">
+                        <li class="font-weight-bold"> Conheça nossos serviços <strong> 0800 777 1234 </strong> </li>
+                        <li class="font-weight-bold"> Atendimento ao cliente 0800 777 9797 </li>
+                    </ul>
+
+                    <!-- ========== ICONS ========== -->
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="text-white d-none d-xl-block"> | </li>
+
+                        <!-- Message -->
+                        <li class="nav-item d-none d-sm-block"> <a class="nav-link" href=""> <i class="fas fa-comments"></i> </a> </li>
+
+                        <!-- User -->
+                        <li class="nav-item d-none d-sm-block"> <a class="nav-link" href="https://chat.terra.com.br/"> <i class="fas fa-user"></i> </a> </li>
+
+                        <!-- Envelope -->
+                        <li class="nav-item d-none d-md-block"> <a class="nav-link" href=""> <i class="fas fa-envelope"></i> </a> </li>
+
+                        <!-- Cloud-Sun -->
+                        <li class="nav-item d-none d-md-block"> <a class="nav-link" href="http://mail.terra.com.br/"> <i class="fas fa-cloud-sun"></i> </a> </li>
+                        
+                        <li class="nav-item d-none d-lg-block"> <a class="nav-link" href=""> <i class="fas fa-spider"></i> </a> </li>
+                        
+                        <!-- Futbol -->
+                        <li class="nav-item d-none d-lg-block"> <a class="nav-link" href=""> <i class="fas fa-futbol"></i> </a> </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- ====================  NAV  INFERIOR  ==================== -->
+            <nav class="navbar p-0 bg-white">
+                
+                <div class="container-fluid p-0">
+
+                    <ul class="nav border-bottom d-flex">
+
+                        <!-- ========== ITEM ========== -->
+                        <li class="nav-item">
+                            <a class="nav-link px-2 py-0 pl-4" href="#">
+                                <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/essential/grid-light.svg" width="15" alt="Terra Serviços">
+                                <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/essential/terra-servicos.svg" width="100" alt="Terra Serviços">
+                            </a>
+                        </li>
+
+                        <!-- ========== ITEM ========== -->
+                        <li class="nav-item d-none d-sm-block">
+                            <a class="nav-link px-2 py-0" href="https://www.terraempresas.com.br/construtor-sites/promo/2021-esta-ai?utm_source=terra&utm_medium=barra%20ds&utm_campaign=construtor%20de%20sites&utm_content=construtor%20de%20sites&utm_term=cabeceira%20pos%201&cdConvenio=CVTR00001907">
+                                <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-builder.svg" width="18" alt="Construtor de Sites">
+                                <span class="font-weight-bold text-primary h6" style="color: #59a2d7;"> CONSTRUTOR DE SITES </span>
+                            </a>
+                        </li>
+
+                        <li class="separator"></li>
+        
+                        <!-- ========== ITEM ========== -->                        
+                        <li class="nav-item d-none d-sm-block">
+                            <a class="nav-link px-2 py-0" href="https://servicos.terra.com.br/mail-gigante/promo/mais-espaco-para-seu-email/?utm_source=terra&utm_medium=barra%20ds&utm_campaign=mail%20gigante&utm_content=mail%20gigante&utm_term=cabeceira%20pos%202&cdConvenio=CVTR00001907">
+                                <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-mail.svg" width="18" alt="Mail Gigante">
+                                <span class="font-weight-bold h6" style="color: #ff7212;"> MAIL GIGANTE </span>
+                            </a>
+                        </li>
+
+
+                        <li class="separator"></li>
+
+
+                        <!-- ========== ITEM ========== -->
+                        <li class="nav-item d-none d-sm-block">
+                            <a class="nav-link px-2 py-0" href="https://www.terraempresas.com.br/loja-virtual/promo/2021-esta-ai/?utm_source=terra&utm_medium=barra%20ds&utm_campaign=loja%20virtual&utm_content=loja%20virtual&utm_term=cabeceira%20pos%203&cdConvenio=CVTR00001907">
+                                <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-store.svg" width="18" alt="Loja Virtual">
+                                <span class="font-weight-bold text-primary h6" style="color: #59a2d7;"> LOJA VIRTUAL </span>
+                            </a>
+                        </li>
+
+
+                        <li class="separator"></li>
+
+
+                        <!-- ========== ITEM ========== -->
+                        <li class="nav-item d-none d-xl-block">
+                            <a class="nav-link px-2 py-0" href="https://www.terraempresas.com.br/loja-virtual/promo/2021-esta-ai/?utm_source=terra&utm_medium=barra%20ds&utm_campaign=loja%20virtual&utm_content=loja%20virtual&utm_term=cabeceira%20pos%203&cdConvenio=CVTR00001907">
+                                <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-cursos-online.svg" width="18" alt="Cursos Online">
+                                <span class="font-weight-bold h6" style="color: #59a2d7;"> CURSOS ONLINE </span>
+                            </a>
+                        </li>
+                        
+                        <!-- ========== ITEM ========== -->
+                        <li class="nav-item d-none d-xl-block">
+                            <a class="nav-link px-2 py-0" href="https://www.terraempresas.com.br/loja-virtual/promo/2021-esta-ai/?utm_source=terra&utm_medium=barra%20ds&utm_campaign=loja%20virtual&utm_content=loja%20virtual&utm_term=cabeceira%20pos%203&cdConvenio=CVTR00001907">
+                                <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-antivirus.svg" width="18" alt="Antivírus">
+                                <span class="font-weight-bold text-danger h6" style="color: #59a2d7;"> ANTIVÍRUS </span>
+                            </a>
+                        </li>
+
+                        
+                        <li class="separator"></li>
+
+                        
+                        <!-- ========== ITEM ========== -->
+                        <li class="nav-item d-none d-xl-block">
+                            <a class="nav-link px-2 py-0" href="https://www.terraempresas.com.br/loja-virtual/promo/2021-esta-ai/?utm_source=terra&utm_medium=barra%20ds&utm_campaign=loja%20virtual&utm_content=loja%20virtual&utm_term=cabeceira%20pos%203&cdConvenio=CVTR00001907">
+                                <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/sva/sva-english-course.svg" width="18" alt="Curso de Inglês">
+                                <span class="font-weight-bold text-success h6" style="color: #59a2d7;"> CURSO DE INGLÊS </span>
+                            </a>
+                        </li>
+
+
+                        <li class="separator"></li>
+
+
+                        <!-- ========== ANÚNCIO ========== -->
+                        <li class="ml-auto">
+                            <a href="https://www.terraempresas.com.br/construtor-sites/promo/2021-esta-ai/?utm_source=terra&utm_medium=barra%20ds&utm_campaign=construtor%20de%20sites&utm_content=banner%20barra%20ds&utm_term=display&cdConvenio=CVTR00001907">
+                                <img class="img-responsive" src="img/promo1.gif" alt="Anúncio">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+    </div><!-- ========== FIM DA DO CABEÇALHO ========== -->
+
+    
+    <!-- ====================  A D - U P P E R  ==================== -->
+    <section class="container-fluid p-0 px-sm-4"> 
+        <a class="p-0" href="#">
+            <figure>
+                <img class="img-responsive w-100" src="https://tpc.googlesyndication.com/simgad/7974516240869591782" alt="C6 BANK - Abra sua conta">
+            </figure>
+        </a>
+    </section>
+
+    <!-- ===================  C A R O U S E L  =================== -->
+    <section class="d-flex justify-content-center row m-0 mt-4 pt-4">
+
+        <div class="d-flex justify-content-center col-xs-12 col-sm-10 col-md-8 p-0">
+            <div id="carousel" class="owl-carousel owl-theme p-0">
+                
+                <!-- ITEM -->
+                <div class="item border p-1 d-flex align-items-center justify-content-center" style="height: 80px;">
+                    <a href="https://www.terra.com.br/diversao/ao-vivo/64919/novo-filme-de-natal-da-netflix-e-brasilidade-na-veia//">
+                        <div class="d-flex">
+                            <img class="h-25 w-25 mx-2" src="https://p2.trrsf.com/image/fget/cf/80/45/s1.trrsf.com/live/thumbs/20201202t220453z-pt-64919.jpg" alt="Novo filme de Natal da Netflix é brasilidade na veia">
+                            <span style="font-size: 1em;"> Novo filme de Natal da Netflix é brasilidade na veia </span>
+                        </div> 
+                    </a>
+                </div>
+
+                <!-- ITEM -->
+                <div class="item border p-1 d-flex align-items-center justify-content-center" style="height: 80px;">
+                    <a href="https://www.terra.com.br/esportes/futebol/internacional/liga-europa/ao-vivo/kaa-gent-x-slovan-liberec/64845/">
+                        <div class="teams">   
+                            <div class="team-left p-2">
+                                <span class="mx-2"> KAA Gent </span>
+                                <img class="imgTeams" src="https://p2.trrsf.com/image/fget/cf/51/51/s1.trrsf.com/shields/kaa-gent.jpg" alt="Brasão Kaa Gent">
+                            </div>
+                            
+                            <div class="score p-2">
+                                <span> 0 </span>
+                                <span> x </span>
+                                <span> 0 </span>
+                            </div>
+
+                            <div class="team-right p-2">
+                                <span class="mx-2"> Slovan Liberec </span>
+                                <img class="imgTeams" src="//ssl.gstatic.com/onebox/media/sports/logos/dYA-RsuqtEFG9UvQaNy75w_96x96.png" alt="Brasão Slovan Liberec">
+                            </div>
+                        </div>
+
+                        <div class="league">
+                            <small> Liga Europa - 14h55 </small>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ITEM -->
+                <div class="item border p-1 d-flex align-items-center justify-content-center" style="height: 80px;">
+                    <a href="https://www.terra.com.br/esportes/futebol/internacional/liga-europa/ao-vivo/cska-moscou-x-rz-pellets-wac/64835/">
+                        <div class="teams">
+                            <div class="team-left p-2">
+                                <span class="mx-2"> CSKA Moscou </span>
+                                <img class="imgTeams" src="https://p2.trrsf.com/image/fget/cf/51/51/s1.trrsf.com/shields/cska-moscou.png" alt="Brasão CSKA Moscou">
+                            </div>
+                            
+                            <div class="score p-2">
+                                <span> 0 </span>
+                                <span> x </span>
+                                <span> 1 </span>
+                            </div>
+
+                            <div class="team-right p-2">
+                                <span class="mx-2"> RZ Pellets WAC </span>
+                                <img class="imgTeams" src="https://p2.trrsf.com/image/fget/cf/51/51/s1.trrsf.com/shields/rz-pellets-wac.png" alt="Brasão RZ Pellets WAC">
+                            </div>
+                        </div>
+
+                        <div class="league">
+                            <small> Liga Europa - 14h55 </small>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ITEM -->
+                <div class="item border p-1 d-flex align-items-center justify-content-center" style="height: 80px;">
+                    <a href="https://www.terra.com.br/esportes/futebol/internacional/liga-europa/ao-vivo/lask-x-tottenham/64840/">
+                        <div class="teams">
+                            <div class="team-left p-2">
+                                <span class="mx-2"> LASK </span>
+                                <img class="imgTeams" src="https://p2.trrsf.com/image/fget/cf/51/51/s1.trrsf.com/shields/lask.png" alt="Brasão Lask">
+                            </div>
+                            
+                            <div class="score p-2">
+                                <span> 0 </span>
+                                <span> x </span>
+                                <span> 0 </span>
+                            </div>
+
+                            <div class="team-right p-2">
+                                <span class="mx-2"> Tottenham </span>
+                                <img class="imgTeams" src="https://p2.trrsf.com/image/fget/cf/51/51/s1.trrsf.com/shields/tottenham.png" alt="Brasão Tottenham">
+                            </div>
+                        </div>
+
+                        <div class="league">
+                            <small> Liga Europa - 14h55 </small>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- ITEM -->
+                <div class="item border p-1 d-flex align-items-center justify-content-center" style="height: 80px;">
+                    <a href="https://www.terra.com.br/esportes/futebol/internacional/liga-europa/ao-vivo/milan-x-celtic/64842/">
+                        <div class="teams">
+                            <div class="team-left p-2">
+                                <span class="mx-2"> Milan </span>
+                                <img class="imgTeams" src="https://p2.trrsf.com/image/fget/cf/51/51/s1.trrsf.com/shields/milan.png" alt="Brasão Milan">
+                            </div>
+                            
+                            <div class="score p-2">
+                                <span> 2 </span>
+                                <span> x </span>
+                                <span> 2 </span>
+                            </div>
+
+                            <div class="team-right p-2">
+                                <span class="mx-2"> Celtic </span>
+                                <img class="imgTeams" src="https://p2.trrsf.com/image/fget/cf/51/51/s1.trrsf.com/shields/celtic-esc.png" alt="Brasão Celtic">
+                            </div>
+                        </div>
+
+                        <div class="league">
+                            <small> Liga Europa - 14h55 </small>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ITEM -->
+                <div class="item border p-1 d-flex align-items-center justify-content-center" style="height: 80px;">
+                    <a href="https://www.terra.com.br/esportes/futebol/internacional/liga-europa/ao-vivo/zorya-luhansk-x-leicester-city/64845/">
+                        <div class="teams">
+                            <div class="team-left p-2">
+                                <span class="mx-2"> Zorya Luhansk </span>
+                                <img class="imgTeams" src="https://p2.trrsf.com/image/fget/cf/51/51/s1.trrsf.com/shields/zorya-luhansk.png" alt="Brasão Zorya Luhansk">
+                            </div>
+                            
+                            <div class="score p-2">
+                                <span> 0 </span>
+                                <span> x </span>
+                                <span> 0 </span>
+                            </div>
+
+                            <div class="team-right p-2">
+                                <span class="mx-2"> Leicester City </span>
+                                <img class="imgTeams" src="https://p2.trrsf.com/image/fget/cf/51/51/s1.trrsf.com/shields/leicester.png" alt="Leicester City">
+                            </div>
+                        </div>
+
+                        <div class="league">
+                            <small> Liga Europa - 14h55 </small>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- BOTÕES -->
+            <button id="btn_prev" class="btn border p-0" style="height: 80px;"> <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/essential/chevron-left-light.svg" alt="Anterior" width="32"> </button>
+            <button id="btn_next" class="btn border p-0" style="height: 80px;"> <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/essential/chevron-right-light.svg" alt="Próximo" width="32"> </button>
+        </div>
+    </section>
+
+     <!-- ====================  MENU  ==================== -->
+    <nav class="px-5 py-3 ">
+        <h1 class="position-absolute d-flex font-weight-bold float-left pl-2 d mt-2" style="border-left: 7px solid rgba(128, 128, 128, 0.4);"><a href="https://www.terra.com.br/noticias/" class="text-dark" style="font-size: 2.5vw;"> NOTÍCIAS </a></h1>
+        
+        <div class="d-flex justify-content-center">
+            <ul class="text-danger nav font-weight-bold" style="font-size: 2vw;">
+                <li class="nav-item"> 
+                    <a class="text-danger nav-link" href="https://www.terra.com.br/noticias/brasil/politica/"> POLÍTICA</a> 
+                </li>
+
+                <li class="nav-item"> <a class="text-danger nav-link" href="https://www.terra.com.br/noticias/brasil/"> BRASIL </a> </li>
+
+                <li class="nav-item"> <a class="text-danger nav-link" href="https://www.terra.com.br/noticias/tecnologia/"> TECNOLOGIA </a> </li>
+
+                <li class="nav-item"> <a class="text-danger nav-link" href="https://www.terra.com.br/noticias/mundo/"> MUNDO </a> </li>
+            </ul>
+        </div>
+    </nav><!-- ========== FIM DO MENU ========== -->
+
+    <!-- ====================  M A I N  ==================== -->
+    <main class="container">
+
+        <!-- ====================   R  O  W  1   ==================== -->
+        <div class="row">
+            
+            <!-- ===============  C A R D  =============== -->
+            <div class="col-xs-12 col-sm-6 col-lg-4 m-0 p-2 card320" >
+                <article class="card" style="height: 100%;">
+                    <a href="#">
+                        <figure>
+                            <img class="card-img" src="https://p2.trrsf.com/image/fget/cf/300/300/images.terra.com/2020/11/23/2cb82bb7-8eb6-48e4-a308-03c6981107f0.jpg" height="300" alt="Imagem startup">
+                        </figure>
+                        <div class="card-img-overlay d-flex d-flex flex-column justify-content-end">
+                            <a class="badge badge-danger fit-badge" href="https://www.terra.com.br/noticias/tecnologia/"> TECNOLOGIA </a>  
+                            <p class="title text-white font-weight-bold" style="font-size: 2vw;"> Melhores startups de Inteligência Artificial do País são reveladas... </p>
+                            
+                            <div class="card-footer text-white font-weight-bold ">       
+                                <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/27/dino.png" width="20" alt="">
+                                <span> DINO </span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- ===============  C A R D  =============== -->
+            <div class="col-xs-12 col-sm-6 col-lg-4 p-2 m-0 card320" >
+
+                <!-- ===== Sub-Card ===== -->
+                <article class="col-12 card  mb-3 p-2 overflow-hidden" style="height: 47%;">
+                    <a class="overflow-hidden h-75" href="#" >
+                        <p class="tittle font-weight-bold"> Mulher é detida por agressão, injúria racial e homofobia em padaria... </p>
+                    </a>
+                    <div class="card-footer">
+                        <a href="#">
+                            <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/20/istoe-32x32.png" width="15" alt="IstoÉ">
+                            <span>IstoÉ</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- ===== Sub-Card ===== -->
+                <article class="col-12 card p-2 overflow-hidden" style="height: 47%;"> 
+                    <a class="overflow-hidden h-75" href="#">
+                        <p class="tittle font-weight-bold"> Concentração recorde de CO2 na atmosfera apesar de confinamentos por ... </p>
+                    </a>
+                    <div class="card-footer">
+                        <a href="#">
+                            <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/20/istoe-32x32.png" width="15" alt="IstoÉ">
+                            <span>IstoÉ</span>
+                        </a>
+                    </div>
+            </div>
+
+            <!-- ===============  C A R D - A D  =============== -->
+            <div class="col-xs-12 col-sm-6 col-lg-4 p-2 card320" >
+                    <article>
+                        <p class="text-center"> Publicidade </p>
+                            <a href="#">
+                                <div>
+                                    <figure>
+                                        <img class="img-fluid mx-auto" src="https://tpc.googlesyndication.com/simgad/8119745751437460573" alt="C6 BANK - Carbon Friday">
+                                    </figure>
+                                </div>
+                            </a>
+                    </article>
+            </div>
+        </div><!-- ========== FIM DA ROW 1 ========== -->
+
+        <!-- ====================   R  O  W  2   ==================== -->
+        <div class="row">
+
+             <!-- ===============  C A R D  =============== -->
+             <div class="col-xs-12 col-md-6 col-lg-4  p-2 m-0 card320" >
+
+                <!-- ===== Sub-Card ===== -->
+                <article class="col-12 card mb-3 p-2 overflow-hidden" style="height: 47%;">
+                    <a class="overflow-hidden h-75" href="https://istoe.com.br/italia-ultrapassa-as-52-mil-mortes-por-coronavirus/" >
+                        <p class="tittle font-weight-bold"> ++ Itália ultrapassa as 52 mil mortes por coronavírus ++ </p>
+                    </a>
+                    <div class="card-footer">
+                        <a href="http://istoe.com.br/">
+                            <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/20/istoe-32x32.png" width="15" alt="IstoÉ">
+                            <span>IstoÉ</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- ===== Sub-Card ===== -->
+                <div class="col-6 float-left pr-2 p-0 overflow-hidden " style="height: 47%;">
+                    <article class="card p-2 h-100" > 
+                        <a class="overflow-hidden h-75" href="https://www.terra.com.br/noticias/mundo/italia-ultrapassa-a-marca-de-52-mil-mortes-por-coronavirus,1e3b72d51717895353039f9033a30555or5kw5ur.html">
+                            <p class="tittle font-weight-bold h6"> Itália ultrapassa a marca de 52 mil mortes por coronavírus </p>
+                        </a>
+                    </article>
+                </div>
+
+                 <!-- ===== Sub-Card ===== -->
+                 <div class="col-6 float-left pl-2 p-0 overflow-hidden " style="height: 47%;">
+                    <article class="card p-2 h-100" > 
+                        <a class="overflow-hidden h-75" href="https://istoe.com.br/ultima-passagem-de-maradona-pelo-futebol-argentino-teve-homenagens-de-rivais/">
+                            <p class="tittle font-weight-bold h6"> Última passagem de Maradona pelo futebol argentino teve homenagens de ... </p>
+                        </a>
+                        <div class="card-footer">
+                            <a href="http://istoe.com.br/">
+                                <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2018/11/20/istoe-32x32.png" width="15" alt="IstoÉ">
+                                <span>IstoÉ</span>
+                            </a>
+                    </article>
+                 </div>
+            </div>
+
+            <!-- ===============  C A R D  =============== -->
+            <div class="col-xs-12 col-md-6 col-lg-4 m-0 p-2 card320" >
+                <article class="card p-2" style="height: 100%;">
+                    <a class="overflow-hidden h-75" href="https://www.terra.com.br/noticias/em-1986-alemanha-sucumbiu-a-genialidade-de-maradona,15b6ee0ca3c41810ecc66c1fae725b376pajpmkj.html" style="font-size: 1.5em;">
+                        <p class="font-weight-bold"> Em 1986, Alemanha sucumbiu à genialidade de Maradona </p>
+                    </a>
+                </article>
+            </div>
+
+            <!-- ===============  C A R D  =============== -->
+            <div class="col-xs-12 col-md-6 col-lg-4 m-0 p-2 card320" >
+                <article class="card">
+                    <a href="https://www.terra.com.br/noticias/tecnologia/como-habilitar-adf-no-ps4-autenticacao-em-dois-fatores,4bc9ea971a93e19b8dcce165c6527b976kvkykxh.html">
+                        <figure>
+                            <img class="card-img" src="https://p2.trrsf.com/image/fget/cf/300/300/images.terra.com/2020/11/25/fabiana-e1606272183182.jpg" height="300" alt="Como habilitar AFD no PS4 [Autenticação em Dois Fatores]">
+                        </figure>
+                        <div class="card-img-overlay d-flex d-flex flex-column justify-content-end">
+                            <a class="badge badge-danger fit-badge" href="https://www.terra.com.br/noticias/tecnologia/"> TECNOLOGIA </a>                 
+                            <p class="title text-white font-weight-bold" style="font-size: 1em;"> Como habilitar AFD no PS4 [Autenticação em Dois Fatores] </p>
+                            
+                            <div class="card-footer text-white font-weight-bold ">     
+                                <a href="https://tecnoblog.net/">
+                                    <img src="https://p2.trrsf.com/image/fget/cf/filters:quality(100)/images.terra.com/2020/08/27/tb32circlefavicon.png" width="20" alt="Tecnoblog">
+                                    <span class="text-white"> Tecnoblog </span>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+        </div><!-- ========== FIM DA ROW 2 ========== -->
+           
+
+        <!-- ====================  D I V I D E R ==================== -->
+        <section class="w-100" style="margin: 2% 0; border: 1px solid gray; border-top: medium solid black; border-right: 0; height: 54px;"></section>
+
+
+        <!-- ===============  A D - C A R D  =============== -->
+        <section class="overflow-hidden">
+
+            <div class="col-xs-12 col-md-6 col-lg-4 pr-3 p-0 float-left">
+                <article>
+                    <a class="card" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjst9ijVwaF8hV0YPW1jlHbo18WFQDGmPnE4YucbjoMLBjwZB854IdjcMHTlOA6jxUR24nWQBfbGi93VCDUxloOaPTefKFyLkm1AOJx8AnXP_V_3sU32LwfzLOlGP4Ux-78g1tQkivWyLxQhQNfF_1LVh6GIjQXUvF5LiUZYUWGNEpQJmetzNAq6KJUFVuZtJnkgbyxcYjODIwgyIDx1eYO7qwrz4YJop7RuPJGdNt-0_wDFdXKoM7HG43v3FZRuNfnYniw&sai=AMfl-YRykerM0fqkBpeBRmikfq02tW-4heC6q12kocboi7SLAFSp7pSNIN1MNGo_AhtmGPLHSv9fyqxPhm_3mtgxf5fEWayzIM9iSlZTtzqKRwx8EGYF8kAxglLBFsovTT-S0xff&sig=Cg0ArKJSzO7IXYQZTXf3EAE&urlfix=1&adurl=https://c.t.tailtarget.com/clk/TT-10969-0/8EOKNGREO3/tZ=95415458/click=https://c6bank.onelink.me/6Vj2/f732dfc1" target="_blank">
+                        <figure>
+                            <img class="card-img-top" src="https://tpc.googlesyndication.com/simgad/16802311091933110755?" alt="C6 BANK - Carbon Friday">
+                        </figure>
+                        <div class="card-body">
+                            <p class="card-text h6 font-weight-bold"> C6 Bank </p>
+                            <p class="card-text h5 font-weight-bold"> C6 Bank Friday </p>
+                            <h4 class="card-tittle font-weight-bold"> ABRIR CONTA </h5>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- ===============  C A R D  =============== -->
+            <div class="d-none d-md-block col-md-6 col-lg-4 px-2 p-0 float-left">
+                <article>
+                    <a class="card" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjst9ijVwaF8hV0YPW1jlHbo18WFQDGmPnE4YucbjoMLBjwZB854IdjcMHTlOA6jxUR24nWQBfbGi93VCDUxloOaPTefKFyLkm1AOJx8AnXP_V_3sU32LwfzLOlGP4Ux-78g1tQkivWyLxQhQNfF_1LVh6GIjQXUvF5LiUZYUWGNEpQJmetzNAq6KJUFVuZtJnkgbyxcYjODIwgyIDx1eYO7qwrz4YJop7RuPJGdNt-0_wDFdXKoM7HG43v3FZRuNfnYniw&sai=AMfl-YRykerM0fqkBpeBRmikfq02tW-4heC6q12kocboi7SLAFSp7pSNIN1MNGo_AhtmGPLHSv9fyqxPhm_3mtgxf5fEWayzIM9iSlZTtzqKRwx8EGYF8kAxglLBFsovTT-S0xff&sig=Cg0ArKJSzO7IXYQZTXf3EAE&urlfix=1&adurl=https://c.t.tailtarget.com/clk/TT-10969-0/8EOKNGREO3/tZ=95415458/click=https://c6bank.onelink.me/6Vj2/f732dfc1" target="_blank">                
+                        <figure>
+                            <img class="card-img-top" src="https://tpc.googlesyndication.com/simgad/16802311091933110755?" alt="C6 BANK - Carbon Friday">
+                        </figure>
+                        <div class="card-body">
+                            <p class="card-text h6 font-weight-bold"> C6 Bank </p>
+                            <p class="card-text h5 font-weight-bold"> C6 Bank Friday </p>
+                            <h4 class="card-tittle font-weight-bold"> ABRIR CONTA </h5>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- ===============  C A R D  =============== -->
+            <div class="d-none d-lg-block col-lg-4 pl-3 p-0 float-left">
+                <article>
+                    <a class="card" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjst9ijVwaF8hV0YPW1jlHbo18WFQDGmPnE4YucbjoMLBjwZB854IdjcMHTlOA6jxUR24nWQBfbGi93VCDUxloOaPTefKFyLkm1AOJx8AnXP_V_3sU32LwfzLOlGP4Ux-78g1tQkivWyLxQhQNfF_1LVh6GIjQXUvF5LiUZYUWGNEpQJmetzNAq6KJUFVuZtJnkgbyxcYjODIwgyIDx1eYO7qwrz4YJop7RuPJGdNt-0_wDFdXKoM7HG43v3FZRuNfnYniw&sai=AMfl-YRykerM0fqkBpeBRmikfq02tW-4heC6q12kocboi7SLAFSp7pSNIN1MNGo_AhtmGPLHSv9fyqxPhm_3mtgxf5fEWayzIM9iSlZTtzqKRwx8EGYF8kAxglLBFsovTT-S0xff&sig=Cg0ArKJSzO7IXYQZTXf3EAE&urlfix=1&adurl=https://c.t.tailtarget.com/clk/TT-10969-0/8EOKNGREO3/tZ=95415458/click=https://c6bank.onelink.me/6Vj2/f732dfc1" target="_blank">
+                        <figure>
+                            <img class="card-img-top" src="https://tpc.googlesyndication.com/simgad/16802311091933110755?" alt="C6 BANK - Carbon Friday">
+                        </figure>
+                        <div class="card-body">
+                            <p class="card-text h6 font-weight-bold"> C6 Bank </p>
+                            <p class="card-text h5 font-weight-bold"> C6 Bank Friday </p>
+                            <h4 class="card-tittle font-weight-bold"> ABRIR CONTA </h5>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+        
+    </main><!-- ========== FIM DA MAIN ========== -->
+
+
+    <!-- ====================  R O D A P É  ==================== -->
+    <footer class="page-footer border-top mt-3">
+
+        <nav class="navbar p-0">
+
+            <div class="container-fluid row py-4 p-0 m-0" style="font-size: 13px;">
+
+                <!--==================== PRIMEIRA COL ==================== -->
+                <div class="col-xs-12 col-lg-4 p-0 d-flex border-right pl-3 my-2">
+                    <ul class="navbar-nav col-4">
+                        <li class="nav-item"><a class="nav-link" href="#"> Carros e Motos </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Economia </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Educação </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Esportes </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Entretenimento </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Games </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Horóscopo </a></li>
+                    </ul>
+            
+                    <ul class="col-4 navbar-nav  text-left">
+                        <li class="nav-item"><a class="nav-link" href="#"> Música </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Notícias </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Tecnologia </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Terra TV </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Terra Serviços </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Vida e Estilo </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Saúde </a></li>
+                    </ul>
+                    
+                    <ul class="col-4 col-lg-4 navbar-nav col-4 text-left">
+                        <li class="nav-item"><a class="nav-link" href="#"> Coronavírus </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Black Friday </a></li>
+                    </ul>
+                </div><!--========== FIM DA PRIMEIRA COL ========== -->
+
+                <!--==================== SEGUNDA COL ==================== -->
+                <div class="col-xs-12 col-md-6 col-lg-4 p-0 d-flex border-right pl-3 my-2">
+                    <ul class="navbar-nav col-4 text-left">
+                        <li class="nav-item"><a class="nav-link" href="#"> Assistência </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Antivíurs </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Backup </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Chat </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Construtor de Sites </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Curso de Inglês </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Cursos Online </a></li>
+                    </ul>
+                
+                    <ul class="navbar-nav col-4 text-left">
+                        <li class="nav-item"><a class="nav-link" href="#"> Disco Virtual </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Domínio </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> E-mail Profissional </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Mail Gigante </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Hospedagem de sites </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Loja Virtual </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Terra Clube </a></li>
+                    </ul>
+                               
+                    <ul class="navbar-nav col-4 text-left">
+                        <li class="nav-item"><a class="nav-link" href="#"> Terra Música by Napster </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Revistas Go Read </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Terra Serviços </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Terra Fibra </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Terra Ads </a></li>        
+                    </ul>
+                </div><!--========== FIM DA SEGUNDA COL ========== -->
+            
+
+                <!--==================== TERCEIRA COL ==================== -->
+                <div class="col-xs-12 col-md-6 col-lg-4 p-0 d-flex pl-3 my-2">
+                    <ul class="navbar-nav col-12">
+                        <li class="nav-item"><a class="nav-link" href="#"> Fale conosco </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Anuncie </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Sala de Imprensa </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Privacidade </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Termos de uso </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Trabalhe no Terra</a></li>
+                    </ul>
+                
+                </div><!--========== FIM DA TERCEIRA COL ========== -->
+        </nav>
+
+        
+        <div class="text-center p-4 border-bottom mb-5">
+            <h1 style="font-size: 0.8em;"> &copy; COPYRIGHT 2020, TERRA NETWORKS BRASIL S.A. </h1>
+        </div>
+
+    </footer><!-- ========== FIM DA DO RODAPÉ ========== -->
+
+    <!-- ====================  ARROW  ==================== -->
+    <a href="#header">
+        <div class="arrow">
+            <img src="https://s1.trrsf.com/update-1601667666/fe/zaz-mod-icons/svg/essential/back-to-top.svg" width="24" alt="Voltar ao topo">
+        </div>
+    </a>
+    
+</body>
+
+<!-- ========== JAVASCRIPT ========== -->
+
+    <!-- JQuery -->
+    <script src="scripts/jquery.min.js"></script>
+    <!-- OwlCarousel -->
+    <script src="scripts/owlCarousel/dist/owl.carousel.min.js"></script>
+    <!-- Script -->
+    <script src="scripts/script.js"></script>
+
+</html>
