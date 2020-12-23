@@ -4,11 +4,11 @@ $(document).ready(function(){
     var owl = $(".owl-carousel");
 
     owl.owlCarousel({
-        items: 4,
-        loop: true,
+        items: 5,
+        loop: false,
         margin: 0,
-        autoplay: true,
-        autoplayTimeout: 5000,
+        autoplay: false,
+        autoplayTimeout: 1000,
         dots: true,
         autoplayHoverPause: true,
         startPosition: 0,

@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="css/style.css">
 
 
+    <!-- ====================  L I N K  ==================== -->
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="scripts/owlCarousel/dist/assets/owl.carousel.min.css">
     <!-- Owl Carousel Theme -->
     <link rel="stylesheet" href="scripts/owlCarousel/dist/assets/owl.theme.default.min.css">
-
 
 
     <!-- ========== JAVASCRIPT ========== -->
@@ -37,7 +37,7 @@
         <!-- ====================  VITRINE TRIBUNA  ==================== -->
         <section class="container">
 
-            <h1 class="text-danger h4"> Vitrine Tribuna </h1>
+            <h1 class="text-danger font-weight-bold h4"> Vitrine Tribuna </h1>
 
             <div class="row p-3">
 
@@ -106,59 +106,156 @@
         </section>
 
         <!-- ====================  P R O D U T O S  ==================== -->
-        
-        <section class="p-3 ">
+        <section class="container p-3" style="position: relative;">
 
-            <h1 class="badge badge-dark fit-badge px-5 py-2"> Produtos </h1>
+            <div class="d-flex justify-content-between">
+                <a href="#">
+                    <h1 class="badge badge-dark fit-badge px-4 py-2"> Produtos </h1>
+                </a>
 
+                <a class="d-flex align-items-center" href="#">
+                    <h3 class="m-0 mr-2" style="font-size: 0.7em;"> VER TODAS AS OFERTAS </h3>
+                    <i class="fas fa-arrow-alt-circle-right" style="font-size: 25px; color: #F24B4B;"></i>     
+                </a>
+
+            </div>
 
 
             <div id="carousel" class="owl-carousel owl-theme p-0">
 
-
-
-
-
-
-
-
-
-
-
-                <!-- CARD -->
-                <div class="item">
+                <!-- Mesa de cabeceira - Bled  -->
+                <div class="item pr-2">
                     <div class="card card320">
 
                         <div class="card-img-top fit-img h-50 d-flex justify-content-end align-items-end" style="background-image: url(img/mesa_de_cabeceira_bled.jpg);">
                             <h1 class="badge badge-dark fit-badge m-0"> americanas </h1>
                         </div>
-                        <div class="card-body">
-                            <small class="text-muted"> Mesa de cabeceira - Bled </small>
-                            <small class="text-muted"> <s> R$390,90 </s> </small>
-                            <h4> R$124,90 </h4>
+                        <div class="card-body p-2">
+                            <small class="muted-3"> Mesa de cabeceira - Bled </small>
+                            <small class="muted-2"> <s> R$390,90 </s> </small>
+                            <h4 class="muted-1" style="font-size: 1.2em;"> R$124,90 </h4>
                         </div>
 
                         <div class="card-footer p-0 d-flex">
-                            <a href="#" class="bg-danger btn btn-danger col-7 noRad m-0 p-1 font-weight-bold" style="font-size: 12px;"> VER PROMOÇÃO </a>
-                            <a href="#" class="btn col-5 noRad m-0 p-1 font-weight-bold" style="background-color: #EAEAEA; font-size: 12px;"> + DETALHES </a>
+                            <a href="#" class="bg-danger btn btn-danger col-7 noRad m-0 px-1 bold" style="font-size: 10px;"> VER PROMOÇÃO </a>
+                            
+                            <a href="#" class="btn col-5 noRad m-0 px-1 bold" style="background-color: #EAEAEA; font-size: 10px;"> + DETALHES </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Luminária de mesa metálica -->
+                <div class="item px-2">
+                    <div class="card card320">
+
+                        <div class="card-img-top fit-img h-50 d-flex justify-content-end align-items-end" style="background-image: url(img/luminaria_de_mesa_metalica.png);">
+                            <h1 class="badge badge-dark fit-badge m-0"> americanas </h1>
+                        </div>
+                        <div class="card-body p-2">
+                            <small class="muted-3"> Luminária de mesa metálica </small>
+                            <small class="muted-2"> <s> R$390,90 </s> </small>
+                            <h4 class="muted-1" style="font-size: 1.2em;"> R$192,00 </h4>
+                        </div>
+
+                        <div class="card-footer p-0 d-flex">
+                            <a href="#" class="bg-danger btn btn-danger col-7 noRad m-0 px-1 bold" style="font-size: 10px;"> VER PROMOÇÃO </a>
+                            
+                            <a href="#" class="btn col-5 noRad m-0 px-1 bold" style="background-color: #EAEAEA; font-size: 10px;"> + DETALHES </a>
                         </div>
 
 
                     </div>
                 </div>
 
-              
+                <!-- Livros - Box Sherlock Holmes -->
+                <div class="item px-2">
+                    <div class="card card320">
 
+                        <div class="card-img-top fit-img h-50 d-flex justify-content-end align-items-end" style="background-image: url(img/box_livros_sherlock_holmes.png);">
+                            <h1 class="badge badge-dark fit-badge m-0"> americanas </h1>
+                        </div>
+                        <div class="card-body p-2">
+                            <small class="muted-3"> Livros - Box Sherlock Holmes </small>
+                            <small class="muted-2"> <s> R$390,90 </s> </small>
+                            <h4 class="muted-1" style="font-size: 1.2em;"> R$90,50 </h4>
+                        </div>
+
+                        <div class="card-footer p-0 d-flex">
+                            <a href="#" class="bg-danger btn btn-danger col-7 noRad m-0 px-1 bold" style="font-size: 10px;"> VER PROMOÇÃO </a>
+                            
+                            <a href="#" class="btn col-5 noRad m-0 px-1 bold" style="background-color: #EAEAEA; font-size: 10px;"> + DETALHES </a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- Livros - Box Harry Potter -->
+                <div class="item px-2">
+                    <div class="card card320">
+
+                        <div class="card-img-top fit-img h-50 d-flex justify-content-end align-items-end" style="background-image: url(img/box_livros_harry_potter.png);">
+                            <h1 class="badge badge-dark fit-badge m-0"> americanas </h1>
+                        </div>
+                        <div class="card-body p-2">
+                            <small class="muted-3"> Livros - Box Harry Potter </small>
+                            <small class="muted-2"> <s> R$390,90 </s> </small>
+                            <h4 class="muted-1" style="font-size: 1.2em;"> R$142,00 </h4>
+                        </div>
+
+                        <div class="card-footer p-0 d-flex">
+                            <a href="#" class="bg-danger btn btn-danger col-7 noRad m-0 px-1 bold" style="font-size: 10px;"> VER PROMOÇÃO </a>
+                            
+                            <a href="#" class="btn col-5 noRad m-0 px-1 bold" style="background-color: #EAEAEA; font-size: 10px;"> + DETALHES </a>
+                        </div>
+
+
+                    </div>
+                </div>
                 
+                <!-- Cafeteira Philco - Vermelha -->
+                <div class="item pl-2">
+                    <div class="card card320">
 
+                        <div class="card-img-top fit-img h-50 d-flex justify-content-end align-items-end" style="background-image: url(img/cafeteira_philco_vermelha.png);">
+                            <h1 class="badge badge-dark fit-badge m-0"> americanas </h1>
+                        </div>
+                        <div class="card-body p-2">
+                            <small class="muted-3"> Cafeteira Philco - Vermelha </small>
+                            <small class="muted-2"> <s> R$390,90 </s> </small>
+                            <h4 class="muted-1" style="font-size: 1.2em;"> R$87,00 </h4>
+                        </div>
+
+                        <div class="card-footer p-0 d-flex">
+                            <a href="#" class="bg-danger btn btn-danger col-7 noRad m-0 px-1 bold" style="font-size: 10px;"> VER PROMOÇÃO </a>
+                            
+                            <a href="#" class="btn col-5 noRad m-0 px-1 bold" style="background-color: #EAEAEA; font-size: 10px;"> + DETALHES </a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
+
+            <i id="btn_next" class="fas fa-chevron-circle-right"></i>
 
         </section>
 
         <!-- ====================  CUPONS DE DESCONTO  ==================== -->
         <section class="p-3">
             
-            <h1 class="badge badge-dark fit-badge px-5 py-2"> Cupons de desconto </h1>
+            <!-- HEADER -->
+            <div class="d-flex justify-content-between">
+                <a href="#">
+                    <h1 class="badge badge-dark fit-badge px-4 py-2"> Cupons de desconto </h1>
+                </a>
+
+                <a class="d-flex align-items-center" href="#">
+                    <h3 class="m-0 mr-2" style="font-size: 0.7em;"> VER TODAS AS OFERTAS </h3>
+                    <i class="fas fa-arrow-alt-circle-right" style="font-size: 25px; color: #F24B4B;"></i>     
+                </a>
+
+            </div>
 
             <div class="row p-2">
                 <!-- CARD -->
