@@ -1,5 +1,8 @@
 /* .badge{border-radius: 0 0 0 5px !important;} */
 
+*{
+    list-style-type: none;
+}
 
 .card320{
     height: 320px;
@@ -86,3 +89,4 @@ a:hover{
     text-decoration: none;
     color: inherit;
 }
+
