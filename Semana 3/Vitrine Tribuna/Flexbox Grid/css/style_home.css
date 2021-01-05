@@ -1,7 +1,5 @@
-/* .badge{border-radius: 0 0 0 5px !important;} */
-
 *{
-    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card320{
@@ -82,11 +80,65 @@
 }
 
 a{
+    text-decoration: none;
     color: #000;
 }
 
 a:hover{
-    text-decoration: none;
     color: inherit;
 }
+
+.badge-b{ 
+    color: #FFF;
+    background-color: #F24B4B;
+    padding: 5px 13px;
+    border-radius: 0px 0px 0px 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card{
+    border: 1px solid black;
+}
+
+
+/* ====================  H E A D  ==================== */
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head #div1{
+    color: #D50A0A;
+    font-weight: 900;
+}
+
+#head #div2{
+    display: flex;
+    align-items: center;
+}
+
+#head #div2 :first-child{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 10px;
+}
+
+#head #div2 i{
+    font-size: 15px;
+    color: #F24B4B;
+}
+
+#head #div2 button{
+    background-color: #F24B4B;
+    border-radius: 15px;
+    border: none;
+    color: #FFF;
+    padding: 4px 20px;
+}
+
+/* ====================  I T E N S  ==================== */
+
 
