@@ -7,6 +7,18 @@
     max-height: 300px;
 }
 
+.card200{
+    height: 200px;
+    max-height: 200px;
+}
+
+
+.card{
+    border: 1px solid #E5E5E5;
+    position: relative;
+}
+
+
 .fit-img{
     background-size: contain; 
     background-position: center; 
@@ -20,16 +32,20 @@
 
 .muted-3{
     color: #BBBBBB;
+    font-size: 1vw;
 }
 
 .muted-2{
     color: #C7C7C7;
     font-weight: bold;
+    font-size: 1vw;
 }
 
 .muted-1{
     color: #707070;
     font-weight: bold;
+    font-size: 1.3vw;
+
 }
 
 .bold{
@@ -84,12 +100,10 @@ a{
     font-size: 15px;
 }
 
-.card{
-    border: 1px solid black;
+.upperCard{
+    border: 1px solid #000;
     position: relative;
 }
-
-
 
 
 
@@ -190,6 +204,7 @@ a{
     border-radius: 10px 10px 0 0;
 }
 
+
 .card-img a{
     background-color: #505050;
     font-size: 10px;
@@ -224,6 +239,7 @@ a{
     align-items: stretch;
 }
 
+
 .card-footer :nth-child(n + 1){
     font-size: 0.8vw;
     font-weight: bold;
@@ -244,3 +260,50 @@ a{
     background-color: #F2F2F2;
     color: #000;
 }
+
+
+/* CUPONS DE DESCONTO */
+
+.headDesconto{
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-color: #FFF;
+    height: 50%;
+    border-radius: 4px 4px 0 0;
+
+}
+
+.contain{
+    background-size: contain;
+}
+
+.bodyDesconto{
+    height: 34%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.bodyDesconto h2{
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.footerDesconto{
+    height: 16%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #51C07A;
+    color: #FFF;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+/* ====================  E M P R E G O S ==================== */
