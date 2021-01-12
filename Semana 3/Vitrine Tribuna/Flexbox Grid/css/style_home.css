@@ -2,7 +2,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.card320{
+body{
+    background-color: #F9F9F9;
+}
+
+/* ====================  C A R D S  ==================== */
+.card300{
     height: 300px;
     max-height: 300px;
 }
@@ -12,50 +17,12 @@
     max-height: 200px;
 }
 
-
 .card{
     border: 1px solid #E5E5E5;
     position: relative;
 }
 
 
-.fit-img{
-    background-size: contain; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-color: #F7F7F7;
-}
-
-.bg-card{
-    background-color: #EAEAEA;
-}
-
-.muted-3{
-    color: #BBBBBB;
-    font-size: 1vw;
-}
-
-.muted-2{
-    color: #C7C7C7;
-    font-weight: bold;
-    font-size: 1vw;
-}
-
-.muted-1{
-    color: #707070;
-    font-weight: bold;
-    font-size: 1.3vw;
-
-}
-
-.bold{
-    font-weight: bold;
-}
-
-.s-100{
-    width: 100%;
-    height: 100%;
-}
 
 #btn_next{
     position: absolute;
@@ -69,29 +36,13 @@
     cursor: pointer;
 }
 
-.yBottom{
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-end;
-
-}
-
-.h-200{
-    height: 200px;
-    max-height: 200px;
-}
-
-.img-100{
-    width: 100%;
-    height: 100%;
-}
-
 a{
     text-decoration: none;
     color: #000;
 }
 
 .badge-b{ 
+    position: absolute;
     color: #FFF;
     background-color: #F24B4B;
     padding: 5px 13px;
@@ -100,12 +51,28 @@ a{
     font-size: 15px;
 }
 
-.upperCard{
-    border: 1px solid #000;
-    position: relative;
+
+
+/*====================  H E A D  S E C T I O N  ====================*/
+.headSection{
+    display: flex;
+    justify-content: space-between;
 }
 
+.headSection :nth-child(2){
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
 
+/* ====================  L A B E L  ==================== */
+.label{
+    padding: 10px;
+    background-color: #272727;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 15px;
+}
 
 /* ====================  H E A D  ==================== */
 #head{
@@ -144,56 +111,68 @@ a{
     padding: 4px 20px;
 }
 
-/* ====================  I T E N S  ==================== */
+/* ====================  PRIMEIROS ITENS  ==================== */
 
-#subCardF{
+.border{
+    border: 1px solid #000;
+}
+
+.fit-img{
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: #E9E9EA;
+}
+
+.bg-card{
+    background-color: #EAEAEA;
+}
+
+.subCardF{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#subCardF a:last-child {
+.subCardF a:last-child {
+    position: absolute;
+    padding: 5px;
+    border-radius: 0px 0px 0px 6px;
     background-color: #51C07A;
 }
 
-#subCardS{
-    height: 48%;
+.subCardS{
+    position: relative;
+    height: 45%;
     background-size: cover;
 }
 
-#subCardS a{
+.subCardS a{
     color: #FFF;
-    font-size: 15px;
+    padding: 5px;
+    border-radius: 0px 0px 0px 4px;
+    font-size: 10px;
 }
 
-
-.label{
-    padding: 10px;
-    background-color: #272727;
-    color: #FFF;
-    border-radius: 5px;
-    font-size: 15px;
+.inferior{
+    height: 94%;
+    padding: 2%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
+.inferior div{
+    height: 80%;
+}
+
 
 /* ====================  P R O D U T O S  ==================== */
 
-/* HEADER */
-#headProdutos{
-    display: flex;
-    justify-content: space-between;
-}
-
-#headProdutos :nth-child(2){
-    display: flex;
-    align-items: center;
-    margin: 0 10px;
-}
-
-
-/* ITEMS */
 /*========== C A R D S ==========*/
 .card-img{
-    background-size: 85%;
+    background-size: contain;
     background-position: center; 
     background-repeat: no-repeat; 
     background-color: #F7F7F7;
@@ -204,10 +183,9 @@ a{
     border-radius: 10px 10px 0 0;
 }
 
-
 .card-img a{
     background-color: #505050;
-    font-size: 10px;
+    font-size: 8px;
     color: #FFF;
     padding: 3px 10px;
     border-radius: 4px;
@@ -215,6 +193,7 @@ a{
 }
 
 .card-body{
+    background-color: #FFF;
     height:35%;
     display: flex;
     flex-direction: column;
@@ -239,7 +218,6 @@ a{
     align-items: stretch;
 }
 
-
 .card-footer :nth-child(n + 1){
     font-size: 0.8vw;
     font-weight: bold;
@@ -261,9 +239,25 @@ a{
     color: #000;
 }
 
+.muted-3{
+    color: #BBBBBB;
+    font-size: 1vw;
+}
 
-/* CUPONS DE DESCONTO */
+.muted-2{
+    color: #C7C7C7;
+    font-weight: bold;
+    font-size: 1vw;
+}
 
+.muted-1{
+    color: #707070;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+
+/* ====================  C U P O N S  D E S C O N T O  ==================== */
 .headDesconto{
     background-position: center; 
     background-size: cover;
@@ -271,7 +265,6 @@ a{
     background-color: #FFF;
     height: 50%;
     border-radius: 4px 4px 0 0;
-
 }
 
 .contain{
@@ -285,7 +278,6 @@ a{
     padding: 10px;
 }
 
-
 .bodyDesconto h2{
     font-size: 1vw;
     font-weight: 600;
@@ -297,13 +289,47 @@ a{
     bottom: 0;
     width: 100%;
     background-color: #51C07A;
-    color: #FFF;
-    font-size: 1.2vw;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0px 0px 4px 4px;
 }
 
+.footerDesconto h3{
+    color: #FFF;
+    font-size: 1vw;
+    font-weight: lighter;
+}
+
 
 /* ====================  E M P R E G O S ==================== */
+.emprego{
+    padding: 10px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.emprego div a{
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.emprego div #first{
+    color: #1E4CB4;
+}
+
+.emprego div a{
+    color: #A9A9A9;
+}
+
+.emprego h2{
+    font-size: 0.8em;
+
+}
+
+.emprego h3{
+    font-size: 0.7em;
+    margin: 0;
+    color: #A9A9A9;
+    font-weight: lighter;
+}

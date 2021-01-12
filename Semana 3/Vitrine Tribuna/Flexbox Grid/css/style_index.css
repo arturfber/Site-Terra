@@ -1,116 +1,281 @@
-/* .badge{border-radius: 0 0 0 5px !important;} */
-
 *{
-    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.card320{
-    height: 320px;
-    max-height: 320px;
-}
-
-.fit-img{
-    background-size: contain; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-color: #EAEAEA;
-}
-
-.bg-card{
-    background-color: #EAEAEA;
-}
-
-.muted-3{
-    color: #BBBBBB;
-}
-
-.muted-2{
-    color: #C7C7C7;
-    font-weight: bold;
-}
-
-.muted-1{
-    color: #707070;
-    font-weight: bold;
-}
-
-.bold{
-    font-weight: bold;
+body{
+    background-color: #FCFBFB;
+    margin: 0;
 }
 
 
-.s-100{
-    width: 100%;
-    height: 100%;
+/* ====================  C A R D S  ==================== */
+.card300{
+    height: 300px;
+    max-height: 300px;
 }
 
-#btn_next{
-    position: absolute;
-    right: 0;
-    top: 50%;
-    z-index: 1;
-    background-color: #FFF;
-    color: #7C7C7C;
-    font-size: 30px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.noRad{
-    border-radius: 0;
-}
-
-.p-abs{
-    position: absolute;
-}
-
-.yBottom{
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-end;
-
-}
-
-.h-200{
+.card200{
     height: 200px;
     max-height: 200px;
 }
 
-.img-100{
-    width: 100%;
-    height: 100%;
+.card{
+    border: 1px solid #E5E5E5;
+    position: relative;
 }
 
+
 a{
+    text-decoration: none;
     color: #000;
 }
 
-a:hover{
-    text-decoration: none;
-    color: inherit;
+
+/*====================  H E A D  S E C T I O N  ====================*/
+.headSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ====================  L A B E L  ==================== */
+.label{
+    padding: 10px;
+    background-color: #272727;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 
-
-/* ====================  I N I C I O  ==================== */
+/* ====================  I N Í C I O  ==================== */
 #inicio{
     background-color: #F24B4B;
-    font-size: 1.5em;
-
-}
-
-#inicio a{
-    color: white;
+    margin: 0;
 }
 
 #inicio ul{
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    align-items: center;
+    padding: 15px 5%;
+    list-style: none;
+}
+
+#inicio ul li a{
+    color: #FFF;
+    font-size: 1.3em;
+}
+
+#inicio ul li a h1{
+    font-weight: 550;
+    font-size: 1.5em;
+    margin: 0;
 }
 
 
-/* ====================  P R I N C I P A L  ==================== */
-main{
-    padding: 2rem 5rem
+/* ====================  P R O D U T O S  ==================== */
+.card-img{
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: #F7F7F7;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-img a{
+    background-color: #505050;
+    font-size: 8px;
+    color: #FFF;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-right: 3px;
+}
+
+.card-body{
+    height:33%;
+    background-color: #FFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-footer{
+    height: 12%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.card-footer :nth-child(n + 1){
+    font-size: 0.8vw;
+    font-weight: bold;
+    border-radius: 0;
+    border: none;
+}
+
+.card-footer :nth-child(1){
+    flex-grow: 2;
+    border-radius: 0 0 0 4px;
+    background-color: #F24B4B;
+    color: #FFF;
+}
+
+.card-footer :nth-child(2){
+    flex-grow: 1;
+    border-radius: 0 0 4px 0;
+    background-color: #F2F2F2;
+    color: #000;
+}
+
+.p{
+    padding: 10px;
+}
+
+.rad{
+    border-radius: 4px;
+}
+
+.muted-3{
+    color: #BBBBBB;
+    font-size: 1vw;
+}
+
+.muted-1{
+    color: #707070;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+
+/* ====================  C U P O N S  D E S C O N T O  ==================== */
+#desconto{
+    position: relative;
+}
+
+.headDesconto{
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-color: #FFF;
+    height: 50%;
+    border-radius: 4px 4px 0 0;
+}
+
+.contain{
+    background-size: contain;
+}
+
+.bodyDesconto{
+    height: 34%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.bodyDesconto h2{
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.footerDesconto{
+    height: 16%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #51C07A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.footerDesconto h3{
+    color: #FFF;
+    font-size: 1vw;
+    font-weight: lighter;
+}
+
+#btn_prev, #btn_next{
+    position: absolute;
+}
+
+#btn_prev{
+    font-size: 30px;
+    color: #7C7C7C;
+    padding: 5px;
+    top: 50%;
+    transform: translate(0%, 30%);
+    left: 0;
+}
+
+#btn_next{
+    font-size: 30px;
+    color: #7C7C7C;
+    padding: 5px;
+    top: 50%;
+    transform: translate(0%, 30%);
+    right: 0;
+}
+
+/* ====================  F O O T E R  ==================== */
+#footer{
+    background-color: #222222;
+    margin-top: 40px;
+}
+
+#footer #footerName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #FFF;
+}
+
+#footer #footerName h1{
+    font-size: 1em;
+    color: #FFF;
+    margin: 10px;
+}
+
+#footer #footerName a{
+    font-size: 1em;
+    color: #FFF;
+    margin: 5px;
+}
+
+#footer div{
+    display: flex;
+}
+
+#footerNav ul{
+    list-style: none;
+}
+
+#footerNav ul a{
+    color: #FFF;
+    font-size: 10px;
+}
+
+#footerLogo{
+    padding: 3%;
+    border-left: 1px solid #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerLogo img{
+    width: 50%;
+}
+
+#footerLogo p{
+    color: #FFF;
+    font-size: 0.7em;
 }

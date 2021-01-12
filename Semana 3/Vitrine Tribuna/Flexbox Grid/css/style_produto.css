@@ -1,0 +1,411 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #FCFBFB;
+    margin: 0;
+}
+
+main{
+    padding: 5%;
+}
+
+/* ====================  C A R D S  ==================== */
+.card300{
+    height: 300px;
+    max-height: 300px;
+}
+
+.card200{
+    height: 200px;
+    max-height: 200px;
+}
+
+.card{
+    border: 1px solid #E5E5E5;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.fit-img{
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: #E9E9EA;
+}
+
+
+/*====================  H E A D  S E C T I O N  ====================*/
+.headSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ====================  L A B E L  ==================== */
+.label{
+    padding: 10px;
+    background-color: #272727;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+
+/* ====================  I N Í C I O  ==================== */
+#inicio{
+    background-color: #F24B4B;
+    margin: 0;
+}
+
+#inicio ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    list-style: none;
+}
+
+#inicio ul li a{
+    color: #FFF;
+    font-size: 1.3em;
+}
+
+#inicio ul li a h1{
+    font-weight: 550;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+
+
+/* ==================== D E S T A Q U E  ==================== */
+#destaque #imgDestaque{
+    padding: 0;
+}
+
+#destaque #imgDestaque a{
+    position: absolute;
+    background-color: #000000;
+    color: #FFF;
+    font-size: 0.7em;
+    border-radius: 0 20px 20px 0;
+    padding: 7px 15px;
+    margin-top: 2%;
+}
+
+
+#destaque #infoDestaque{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#destaque #infoDestaque :nth-child(n + 1){
+    margin: 10px 0;
+}
+
+#destaque #infoDestaque a{
+    background-color: #000000;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 10px;
+}
+
+#destaque #infoDestaque h1{
+    color: #F24B4B;
+    font-size: 2em;
+}
+
+#destaque #infoDestaque h2{
+    color: #CCCBCB;
+    font-size: 1.5em;
+}
+
+#destaque #infoDestaque h3{
+    color: #000000;
+    font-size: 1.5em;
+}
+
+#destaque #infoDestaque h4{
+    color: #9D9C9C;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+#destaque #infoDestaque button{
+    background-color: #51C07A;
+    color: #FFF;
+    padding: 15px 50px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#destaque #sellerDestaque{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#destaque #sellerDestaque div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#destaque #sellerDestaque div small{
+    margin-bottom: 5px;
+}
+
+#destaque #sellerDestaque div ul{
+    font-size: 1.2em;
+    list-style: none;
+    display: flex;
+}
+
+#destaque #sellerDestaque div ul li a{
+    padding: 12px;
+    border-radius: 5px;
+}
+
+#destaque #sellerDestaque div ul :nth-child(2) {
+    margin: 0 20px;
+}
+
+#destaque #sellerDestaque div ul #globe {
+    background-color: #3E98AE;
+}
+
+#destaque #sellerDestaque div ul #facebook {
+    background-color: #4642A5;
+}
+
+#destaque #sellerDestaque div ul #whatsapp {
+    background-color: #42A577;
+}
+
+#destaque #sellerDestaque div ul li a{
+    color: #FFF;
+}
+
+#destaque #destaqueTXT {
+    margin-bottom: 2%;
+}
+
+#destaque #destaqueTXT :nth-child(n + 1){
+    margin: 2% 0;
+}
+
+#destaque #destaqueTXT h3{
+    font-size: 0.8em;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+#destaque #destaqueTXT h2{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#destaque #destaqueTXT a{
+    font-size: 0.8em;
+    padding: 5px;
+    background-color: #EFEFEF;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+#destaque #destaqueTXT span{
+    color: #F00;
+}
+
+/* ====================  C U P O N S  D E S C O N T O  ==================== */
+.headDesconto{
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-color: #FFF;
+    height: 50%;
+    border-radius: 4px 4px 0 0;
+}
+
+.contain{
+    background-size: contain;
+}
+
+.bodyDesconto{
+    height: 34%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.bodyDesconto h2{
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.footerDesconto{
+    height: 16%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #51C07A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.footerDesconto h3{
+    color: #FFF;
+    font-size: 1vw;
+    font-weight: lighter;
+}
+
+
+/* ====================  M A I S  P R O D U T O S  ==================== */
+.card-img{
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: #F7F7F7;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-img a{
+    background-color: #505050;
+    font-size: 8px;
+    color: #FFF;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-right: 3px;
+}
+
+.card-body{
+    height:33%;
+    background-color: #FFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-footer{
+    height: 12%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.card-footer :nth-child(n + 1){
+    font-size: 0.8vw;
+    font-weight: bold;
+    border-radius: 0;
+    border: none;
+}
+
+.card-footer :nth-child(1){
+    flex-grow: 2;
+    border-radius: 0 0 0 4px;
+    background-color: #F24B4B;
+    color: #FFF;
+}
+
+.card-footer :nth-child(2){
+    flex-grow: 1;
+    border-radius: 0 0 4px 0;
+    background-color: #F2F2F2;
+    color: #000;
+}
+
+.p{
+    padding: 10px;
+}
+
+.rad{
+    border-radius: 4px;
+}
+
+.muted-3{
+    color: #BBBBBB;
+    font-size: 1vw;
+}
+
+.muted-1{
+    color: #707070;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+
+/* ====================  F O O T E R  ==================== */
+#footer{
+    background-color: #222222;
+    margin-top: 40px;
+}
+
+#footer #footerName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #FFF;
+}
+
+#footer #footerName h1{
+    font-size: 1em;
+    color: #FFF;
+    margin: 10px;
+}
+
+#footer #footerName a{
+    font-size: 1em;
+    color: #FFF;
+    margin: 5px;
+}
+
+#footer div{
+    display: flex;
+}
+
+#footerNav ul{
+    list-style: none;
+}
+
+#footerNav ul a{
+    color: #FFF;
+    font-size: 10px;
+}
+
+#footerLogo{
+    padding: 3%;
+    border-left: 1px solid #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerLogo img{
+    width: 50%;
+}
+
+#footerLogo p{
+    color: #FFF;
+    font-size: 0.7em;
+}

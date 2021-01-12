@@ -7,16 +7,11 @@
 
     <link rel="icon" href="https://redeglobo.globo.com/platb/files/2463/2012/08/vitrine.jpg">
 
+    <!-- ====================  L I N K  ==================== -->
     <!-- Flexbox Grid --> 
     <link rel="stylesheet" href="css/flexboxgrid.css">
-
     <!-- CSS -->
     <link rel="stylesheet" href="css/style_home.css">
-
-    <!-- ====================  L I N K  ==================== -->
-    <!-- Fonte Montserrat -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="scripts/owlCarousel/dist/assets/owl.carousel.min.css">
     <!-- Owl Carousel Theme -->
@@ -34,12 +29,11 @@
     <script src="scripts/script.js"></script>
 
 </head>
-<body>
+<body class="container-fluid">
     
     <main>
 
         <!-- ====================  VITRINE TRIBUNA  ==================== -->
-
         <section>
 
             <!-- Header -->
@@ -63,81 +57,81 @@
             </div>
 
             <div class="container-fluid">
+               
+                <!-- ITENS -->
+                <div class="row">
 
-           
-            
-            <!-- Itens -->
-            <div class="row">
-
-                <!-- CARD -->
-                <article class="col-xs-3">
-                    <div class="upperCard card320 fit-img" style="background-image: url(img/fritadeira_sem_oleo_vermelha.webp);">
-                        <a class="badge-b" href="#"> PRODUTOS </a>
-                    </div>
-                </article>
-
-
-                <!-- CARD -->
-                <article class="col-xs-3">
-                    <div class="upperCard card320 fit-img " style="background-image: url(img/iphone_11.jpg);">
-                        <a class="badge-b" href="#"> PRODUTOS </a>
-                    </div>
-                </article>
-
-
-                <!-- CARD -->
-                <article id="subCardF" class="col-xs-3">
-                    
-                    <!-- Sub-Card -->
-                    <div id="subCardS" class="upperCard" style="background-image: url(img/fashion_boutique_logo.PNG);">
-                        <a class="" href="#"> CUPONS </a>
-                    </div>
-
-                    <!-- Sub-Card -->
-                    <div id="subCardS" class="upperCard bg-card">
-                        <a class="" href="#" style="background-color: #222;"> EMPREGOS </a>
-                        <div class="card-body p-1 yCenter">
-                            <h6 class="card-tittle font-weight-bold"> Contrata-se ajudante de mudanças e carretos </h6>
+                    <!-- CARD -->
+                    <article class="col-xs-3">
+                        <div class="card300 border fit-img" style="background-image: url(img/fritadeira_sem_oleo_vermelha.webp);">
+                            <a class="badge-b" href="#"> PRODUTOS </a>
                         </div>
-                            <small class="text-muted p-2 text-">
-                                São Vicente - Cidade Náutica
-                            </small>
-                    </div>
-
-                </article>
+                    </article>
 
 
-                <!-- CARD -->
-                <article id="subCardF" class="col-xs-3">
-                    
-                    <!-- Sub-Card -->
-                    <div id="subCardS" class="fit-img" style="background-image: url(img/casas_bahia_logo.png);">
-                        <a class="badge badge-success fit-badge w-50 p-1" href="#"> CUPONS </a>
-                    </div>
-
-                    <!-- Sub-Card -->
-                    <div id="subCardS" class="upperCard bg-card">
-                        <a class="badge badge-dark fit-badge w-50 p-1" href="#" style="background-color: #222;"> EMPREGOS </a>
-                        <div class="card-body p-1 yCenter">
-                            <h6 class="card-tittle font-weight-bold"> Contrata-se ajudante de mudanças e carretos </h6>
+                    <!-- CARD -->
+                    <article class="col-xs-3">
+                        <div class="card300 border fit-img " style="background-image: url(img/iphone_11.jpg);">
+                            <a class="badge-b" href="#"> PRODUTOS </a>
                         </div>
-                            <small class="text-muted p-2 text-">
-                                São Vicente - Cidade Náutica
-                            </small>
-                    </div>
+                    </article>
 
-                </article>
 
-            
+                    <!-- CARD -->
+                    <article class="subCardF col-xs-3">
+                        
+                        <!-- Sub-Card -->
+                        <div class="subCardS" style="background-image: url(img/fashion_boutique_logo.PNG);">
+                            <a href="#"> CUPONS </a>
+                        </div>
+
+                        <!-- Sub-Card -->
+                        <div class="subCardS border bg-card ">
+                            
+                            <a href="#" style="background-color: #222; width: fit-content; position: absolute;"> EMPREGOS </a>
+                            
+                            <div class="inferior">
+                                <br>                 
+                                <h2> Contrata-se ajudante de mudanças e carretos </h6>
+                                <small>São Vicente - Cidade Náutica</small>                           
+                            </div>
+                        </div>
+
+                    </article>
+
+
+                    <!-- CARD -->
+                    <article class="subCardF col-xs-3">
+                        
+                        <!-- Sub-Card -->
+                        <div class="subCardS" style="background-image: url(img/casas_bahia_logo.png);">
+                            <a href="#"> CUPONS </a>
+                        </div>
+
+                        <!-- Sub-Card -->
+                        <div class="subCardS border bg-card ">
+                            
+                            <a href="#" style="background-color: #222; width: fit-content; position: absolute;"> EMPREGOS </a>
+                            
+                            <div class="inferior">  
+                                <br>
+                                <h2> Contrata-se ajudante de mudanças e carretos </h6>
+                                <small>São Vicente - Cidade Náutica</small>                           
+                            </div>
+                        </div>
+
+                    </article>
+    
+                </div>
+
             </div>
-
         </section>
 
         <!-- ====================  P R O D U T O S  ==================== -->
         <section id="produtos">
 
             <!-- Header -->
-            <div id="headProdutos">
+            <div class="headSection">
                 <a href="#">
                     <h1 class="label"> Produtos </h1>
                 </a>
@@ -153,7 +147,7 @@
 
                 <!-- Mesa de cabeceira - Bled  -->
                 <div class="item p">
-                    <div class="card card320 rad">
+                    <div class="card card200 rad">
                         <div class="card-img" style="background-image: url(img/mesa_de_cabeceira_bled.jpg);">
                             <a href="#">americanas</a>
                         </div>
@@ -168,12 +162,11 @@
                             <button href="#"> + DETALHES </button>
                         </div>
                     </div>
-
                 </div>
 
                 <!-- Luminária de mesa metálica  -->
                 <div class="item p">
-                    <div class="card card320 rad">
+                    <div class="card card200 rad">
                         <div class="card-img" style="background-image: url(img/luminaria_de_mesa_metalica.png);">
                             <a href="#">tok & stok</a>
                         </div>
@@ -188,12 +181,11 @@
                             <button type="button" href="#"> + DETALHES </button>
                         </div>
                     </div>
-
                 </div>
 
                 <!-- Livros - Box Sherlock Holmes  -->
                 <div class="item p">
-                    <div class="card card320 rad">
+                    <div class="card card200 rad">
                         <div class="card-img" style="background-image: url(img/box_livros_sherlock_holmes.png);">
                             <a href="#">americanas</a>
                         </div>
@@ -208,12 +200,11 @@
                             <button type="button" href="#"> + DETALHES </button>
                         </div>
                     </div>
-
                 </div>
 
                 <!-- Livros - Box Harry Potter  -->
                 <div class="item p">
-                    <div class="card card320 rad">
+                    <div class="card card200 rad">
                         <div class="card-img" style="background-image: url(img/box_livros_harry_potter.png);">
                             <a href="#">americanas</a>
                         </div>
@@ -228,12 +219,11 @@
                             <button type="button" href="#"> + DETALHES </button>
                         </div>
                     </div>
-
                 </div>
 
                 <!-- Cafeteira Philco - Vermelha  -->
                 <div class="item p">
-                    <div class="card card320 rad">
+                    <div class="card card200 rad">
                         <div class="card-img" style="background-image: url(img/cafeteira_philco_vermelha.png);">
                             <a href="#">americanas</a>
                         </div>
@@ -248,7 +238,6 @@
                             <button type="button" href="#"> + DETALHES </button>
                         </div>
                     </div>
-
                 </div>
 
             </div>
@@ -262,7 +251,7 @@
         <section id="desconto">
             
            <!-- Header -->
-           <div id="headProdutos">
+           <div class="headSection">
                 <a href="#">
                     <h1 class="label"> Cupons de desconto </h1>
                 </a>
@@ -278,7 +267,7 @@
                 <div class="col-xs">
                     <a href="#">
                         <div class="card card200 rad">
-                            <div class="headDesconto contain" style="background-image: url(img/americanas_logo.png);"></div>
+                            <div class="headDesconto contain" style="background-image: url(img/americanas_logo.png);background-size: 90%;"></div>
                             <div class="bodyDesconto" >
                                 <small class="muted-3"> 20 cupons </small>
                                 <h2> 15% de desconto </h2>
@@ -393,18 +382,15 @@
                     </a>
                 </div>
 
-
-
-
             </div>
 
         </section>
 
         <!-- ====================  E M P R E G O S  ==================== -->
-        <section class="empregos">
+        <section id="empregos">
 
             <!-- Header -->
-            <div class="headEmpregos">
+            <div class="headSection">
                 <a href="#">
                     <h1 class="label"> Empregos </h1>
                 </a>
@@ -417,91 +403,100 @@
             </div>
 
             <!-- Carrossel -->
-            <div id="carousel" class="owl-carousel owl-theme p-0">
+            <div id="carousel" class="owl-carousel owl-theme">
 
                 <!-- ITEM -->
-                <div class="item pr-3">        
-                    <div class="card text-center">
-                        <div class="card-header text-left" style="font-size: 10px;">
-                            <a class="mr-3" href="#"> POLÍTICA </a>
+                <div class="item p">     
+           
+                    <div class="emprego card200 card rad">
+
+                        <div>
+                            <a id="first" href="#"> POLÍTICA </a>
                             <a href="#"><i class="fab fa-facebook-f text-muted"></i></a>
                             <a href="#"><i class="fab fa-whatsapp text-muted"></i></a>
                             <a href="#"><i class="fas fa-ellipsis-h"></i></a>
                         </div>
-                        <div class="card-body px-3 text-left">
-                          <h5 class="card-title h6">Bolsonaro recebe ministros para reunião do Conselho de Governo nesta quinta</h5>
-                          <p class="card-text small"> O presidente Jair Bolsonaro terá nesta quinta-feira, 19, reunião com seus ministros em mais um encontro do Conselho de Governo, que também inclui presidentes de bancos oficiais. Em seguida, as autoridades participam de evento em comemoração ao Dia da Band...</p>                          
-                        </div>                        
+
+                        <a href="#"><h2>Bolsonaro recebe ministros para reunião do Conselho de Governo nesta quinta</h2></a>
+                        <a href="#"><h3> O presidente Jair Bolsonaro terá nesta quinta-feira, 19, reunião com seus ministros em mais um encontro do Conselho de Governo, que também inclui presidentes de bancos oficiais. Em seguida, as autoridades participam de evento em comemoração ao Dia da Band...</h3></a>
+                                              
                     </div>
                 </div>
 
                 <!-- ITEM -->
-                <div class="item pr-3">        
-                    <div class="card text-center">
-                        <div class="card-header text-left" style="font-size: 10px;">
-                            <a class="mr-3" href="#"> POLÍTICA </a>
+                <div class="item p">     
+           
+                    <div class="emprego card200 card rad">
+
+                        <div>
+                            <a id="first" href="#"> POLÍTICA </a>
                             <a href="#"><i class="fab fa-facebook-f text-muted"></i></a>
                             <a href="#"><i class="fab fa-whatsapp text-muted"></i></a>
                             <a href="#"><i class="fas fa-ellipsis-h"></i></a>
                         </div>
-                        <div class="card-body px-3 text-left">
-                          <h5 class="card-title h6">Bolsonaro recebe ministros para reunião do Conselho de Governo nesta quinta</h5>
-                          <p class="card-text small"> O presidente Jair Bolsonaro terá nesta quinta-feira, 19, reunião com seus ministros em mais um encontro do Conselho de Governo, que também inclui presidentes de bancos oficiais. Em seguida, as autoridades participam de evento em comemoração ao Dia da Band...</p>                          
-                        </div>                        
+
+                        <a href="#"><h2>Bolsonaro recebe ministros para reunião do Conselho de Governo nesta quinta</h2></a>
+                        <a href="#"><h3> O presidente Jair Bolsonaro terá nesta quinta-feira, 19, reunião com seus ministros em mais um encontro do Conselho de Governo, que também inclui presidentes de bancos oficiais. Em seguida, as autoridades participam de evento em comemoração ao Dia da Band...</h3></a>
+                                              
                     </div>
                 </div>
 
-                <!-- ITEM -->
-                <div class="item pr-3">        
-                    <div class="card text-center">
-                        <div class="card-header text-left" style="font-size: 10px;">
-                            <a class="mr-3" href="#"> POLÍTICA </a>
+                 <!-- ITEM -->
+                 <div class="item p">     
+           
+                    <div class="emprego card200 card rad">
+
+                        <div>
+                            <a id="first" href="#"> POLÍTICA </a>
                             <a href="#"><i class="fab fa-facebook-f text-muted"></i></a>
                             <a href="#"><i class="fab fa-whatsapp text-muted"></i></a>
                             <a href="#"><i class="fas fa-ellipsis-h"></i></a>
                         </div>
-                        <div class="card-body px-3 text-left">
-                          <h5 class="card-title h6">Bolsonaro recebe ministros para reunião do Conselho de Governo nesta quinta</h5>
-                          <p class="card-text small"> O presidente Jair Bolsonaro terá nesta quinta-feira, 19, reunião com seus ministros em mais um encontro do Conselho de Governo, que também inclui presidentes de bancos oficiais. Em seguida, as autoridades participam de evento em comemoração ao Dia da Band...</p>                          
-                        </div>                        
+
+                        <a href="#"><h2>Bolsonaro recebe ministros para reunião do Conselho de Governo nesta quinta</h2></a>
+                        <a href="#"><h3> O presidente Jair Bolsonaro terá nesta quinta-feira, 19, reunião com seus ministros em mais um encontro do Conselho de Governo, que também inclui presidentes de bancos oficiais. Em seguida, as autoridades participam de evento em comemoração ao Dia da Band...</h3></a>
+                                              
                     </div>
                 </div>
 
-                <!-- ITEM -->
-                <div class="item pr-3">        
-                    <div class="card text-center">
-                        <div class="card-header text-left" style="font-size: 10px;">
-                            <a class="mr-3" href="#"> POLÍTICA </a>
+                 <!-- ITEM -->
+                 <div class="item p">     
+           
+                    <div class="emprego card200 card rad">
+
+                        <div>
+                            <a id="first" href="#"> POLÍTICA </a>
                             <a href="#"><i class="fab fa-facebook-f text-muted"></i></a>
                             <a href="#"><i class="fab fa-whatsapp text-muted"></i></a>
                             <a href="#"><i class="fas fa-ellipsis-h"></i></a>
                         </div>
-                        <div class="card-body px-3 text-left">
-                          <h5 class="card-title h6">Bolsonaro recebe ministros para reunião do Conselho de Governo nesta quinta</h5>
-                          <p class="card-text small"> O presidente Jair Bolsonaro terá nesta quinta-feira, 19, reunião com seus ministros em mais um encontro do Conselho de Governo, que também inclui presidentes de bancos oficiais. Em seguida, as autoridades participam de evento em comemoração ao Dia da Band...</p>                          
-                        </div>                        
+
+                        <a href="#"><h2>Bolsonaro recebe ministros para reunião do Conselho de Governo nesta quinta</h2></a>
+                        <a href="#"><h3> O presidente Jair Bolsonaro terá nesta quinta-feira, 19, reunião com seus ministros em mais um encontro do Conselho de Governo, que também inclui presidentes de bancos oficiais. Em seguida, as autoridades participam de evento em comemoração ao Dia da Band...</h3></a>
+                                              
                     </div>
                 </div>
 
-                <!-- ITEM -->
-                <div class="item pr-3">        
-                    <div class="card text-center">
-                        <div class="card-header text-left" style="font-size: 10px;">
-                            <a class="mr-3" href="#"> POLÍTICA </a>
+                 <!-- ITEM -->
+                 <div class="item p">     
+           
+                    <div class="emprego card200 card rad">
+
+                        <div>
+                            <a id="first" href="#"> POLÍTICA </a>
                             <a href="#"><i class="fab fa-facebook-f text-muted"></i></a>
                             <a href="#"><i class="fab fa-whatsapp text-muted"></i></a>
                             <a href="#"><i class="fas fa-ellipsis-h"></i></a>
                         </div>
-                        <div class="card-body px-3 text-left">
-                          <h5 class="card-title h6">Bolsonaro recebe ministros para reunião do Conselho de Governo nesta quinta</h5>
-                          <p class="card-text small"> O presidente Jair Bolsonaro terá nesta quinta-feira, 19, reunião com seus ministros em mais um encontro do Conselho de Governo, que também inclui presidentes de bancos oficiais. Em seguida, as autoridades participam de evento em comemoração ao Dia da Band...</p>                          
-                        </div>                        
+
+                        <a href="#"><h2>Bolsonaro recebe ministros para reunião do Conselho de Governo nesta quinta</h2></a>
+                        <a href="#"><h3> O presidente Jair Bolsonaro terá nesta quinta-feira, 19, reunião com seus ministros em mais um encontro do Conselho de Governo, que também inclui presidentes de bancos oficiais. Em seguida, as autoridades participam de evento em comemoração ao Dia da Band...</h3></a>
+                                              
                     </div>
                 </div>
-                
+              
             </div>
 
- 
         </section>
 
     </main>
