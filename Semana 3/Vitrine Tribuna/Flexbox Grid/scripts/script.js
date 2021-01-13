@@ -25,25 +25,18 @@ $(document).ready(function(){
     $("#btn_next").on('click', function(){
         owl.trigger('next.owl.carousel');
     })
-    
+
 });
 
 
-// ========== EMPREGOS ==========
+// ==========  ==========
 $(document).ready(function(){
 
-    $('.carousel-one').owlCarousel({
-        items: 2,
-        loop: false,
-        margin: 0,
-        autoplay: false,
-        autoplayTimeout: 1000,
-        dots: false,
-        autoplayHoverPause: true,
-        startPosition: 0,
-        slideBy: 1,
-        slideTransition: 'linear',
-    });
-    
-    
+    $("#promo").on('click', function(){
+        $("#cuponClick").show();
+    })
+
+
+
+
 });
