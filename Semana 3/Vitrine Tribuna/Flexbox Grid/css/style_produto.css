@@ -409,3 +409,21 @@ a{
     color: #FFF;
     font-size: 0.7em;
 }
+
+
+/*====================  C L I Q U E  ====================*/
+#cuponClick{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.8);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
