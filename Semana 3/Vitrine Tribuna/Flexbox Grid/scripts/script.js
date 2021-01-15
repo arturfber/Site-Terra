@@ -35,8 +35,9 @@ $(document).ready(function(){
     $("#promo").on('click', function(){
         $("#cuponClick").show();
     })
-
-
-
+ 
+    $("#cuponClick").on('click', function(){
+        $("#cuponClick").hide();
+    });
 
 });
