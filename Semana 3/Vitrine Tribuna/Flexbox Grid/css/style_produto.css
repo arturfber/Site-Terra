@@ -413,28 +413,28 @@ a{
 
 /*====================  C L I Q U E  ====================*/
 #cuponClick{
-    /* display: none; */
+    display: none;
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(50, 50, 50, 0.6);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
 }
 
-#cuponClick #centerClick{
+#cuponClick #divClick{
+    margin: 20% auto;
+
     width: 40%;
     height: 300px;
     background-color: #FFF;
 
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
 }
 
-#cuponClick #centerClick :nth-last-child(3){
+#cuponClick #divClick #cuponDiv1{
     height: 15%;
     background-color: #FC5555;
     color: #FFF;
@@ -446,20 +446,42 @@ a{
     align-items: center;
 }
 
-#cuponClick #centerClick p{
+#cuponClick #divClick p{
     margin: 5% 5%;
 }
 
-#cuponClick #centerClick :nth-last-child(1){
-    margin: 0 10%;
-    padding: 5px 10px;
-    width: fit-content;
+#cuponClick #divClick #cuponDiv2{
     display: flex;
-    align-items: center;
-    border: 1px dashed #FC5555;
-    color: #FC5555;
-    border-radius: 10px;
+    justify-content: center;
 }
 
+#cuponClick #divClick #cuponDiv2 :first-child{
+    padding: 15px 70px;
+    border: 1px dashed #FC5555;
+    border-radius: 7px 0px 0px 7px;
+    color: #FC5555;
+    font-weight: bolder;
+}
 
+#cuponClick #divClick #cuponDiv2 :last-child{
+    padding: 15px;
+    border-top: 1px dashed #FC5555;
+    border-right: 1px dashed #FC5555;
+    border-bottom: 1px dashed #FC5555;
+    border-radius: 0px 7px 7px 0px;
+    color: #FC5555;
+    font-weight: bolder;
+}
 
+#cuponClick #divClick button{
+    width: 80%;
+    margin: 4% auto;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #FC5555;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #FFF;
+    cursor: pointer;
+}
